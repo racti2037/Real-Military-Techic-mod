@@ -1,0 +1,33 @@
+type: "ConsumeGenerator"
+name: "Benzine generator"
+health: 55
+size: 1
+hasLiuid: true
+placeableLiquid: false
+outputsPower: true
+breakable: true
+buildCostMultiplier: 0.4
+liquidCapacity: 20
+powerProduction: 1.1
+consumes: {
+  liquid: {
+    liquid: oil
+    amount: 0.1
+  }
+}
+requirements: [
+    {
+    ltem: copper
+    amount: 35
+	},
+	{
+    item: lead,
+    amount: 20
+    },
+	{
+    item: graphite,
+    amount: 15
+    },
+]
+category: "power" 
+research: steam-generator
