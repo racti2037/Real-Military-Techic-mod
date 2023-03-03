@@ -1,0 +1,41 @@
+type: tank
+name: "M1A2 Abrams"
+health: 280
+treadFrames: 0.4
+hitSize: 10
+speed:0.8
+armor:2
+group: "T1"
+hovering: false
+outlineRadius: 1
+outlineColor: "2D2F39"
+lightRadius: 30
+lightColor: "FFFFFF"
+flying: false
+drag: 0.2
+accel: 0.2
+rotateSpeed": 0.9,
+baseRotateSpeed: 0.9
+commandLimit: 0
+itemCapacity: 20
+commandRadius": 50
+drownTimeMultiplie: 1
+weapons: [
+ {
+ name: "abrams-weapon"
+ x: 0
+ y: 2
+    rotateSpeed: 0.8
+    rotate: true
+    ignoreRotation: true
+    followRotation: false
+    rotateShooting: false
+    reload: 45
+    recoil: 4.5
+    shootSound: "artillery"
+    bullet: {
+    type: "basicBulletType"
+    shootEffect: "shootBig2"
+    }
+   }
+ ]
