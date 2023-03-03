@@ -1,0 +1,9 @@
+gas: false
+name: "Benzine"
+color: "ffca39"
+temperature: 0.6
+flammability: 0.7
+heatCapacity: 0.3
+viscosity: 0.8
+explosiveness: 0.8
+research: oil
