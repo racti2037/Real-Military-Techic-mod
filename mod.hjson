@@ -1,8 +1,8 @@
 name: "military-techic-mod"
-displayName: "Military Techic Mod"
+displayName: "Military Technic Mod"
 "author": "Racti"
-description: "Mod add tanks, helicopters, aircraft and naval ships"
-version: "1.0"
-minGameVersion: "136"
+description: "Mod add tanks,aircraft and naval ships"
+version: "0.2"
+minGameVersion: "142"
 dependencies: []
 hidden: false
