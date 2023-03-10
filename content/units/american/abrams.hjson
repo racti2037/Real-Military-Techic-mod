@@ -45,7 +45,7 @@ weapons: [
     shootEffect: shootBig2
     damage: 20
     speed: 3
-    lifeTime: 200
+    lifeTime: 390
     }
    }
  ]
