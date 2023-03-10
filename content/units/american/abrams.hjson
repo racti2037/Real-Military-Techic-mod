@@ -7,7 +7,7 @@ armor: 20
 speed: 0.8
 rotateSpeed: 2
 range: 290
-treadPullOffset: 4
+treadPullOffset: 6
 treadRects: [
   {
   x: 4
