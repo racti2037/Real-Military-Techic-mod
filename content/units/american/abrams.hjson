@@ -40,11 +40,11 @@ weapons: [
 
  bullet: {
     type: ArtilleryBulletType
-	trailMult: 1.2
+    trailMult: 1.2
     shootEffect: shootBig2
-    damage: 20
-    speed: 3
-    lifeTime: 40
+    damage: 90
+    speed: 4
+    lifeTime: 140
     }
    }
  ]
