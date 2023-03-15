@@ -11,7 +11,7 @@ treadPullOffset: 6
 treadRects: [
   {
   x: 5
-  y: 2
+  y: 4
   width: 5
   height: 6
   }
@@ -41,11 +41,10 @@ weapons: [
  bullet: {
     type: ArtilleryBulletType
 	trailMult: 1.2
-	hitSize: 0.5
     shootEffect: shootBig2
     damage: 20
     speed: 3
-    lifeTime: 390
+    lifeTime: 40
     }
    }
  ]
