@@ -11,7 +11,7 @@ liquidCapacity: 20
 powerProduction: 1.1
 consumes: {
   liquid: {
-    liquid: oil
+    liquid: benzine
     amount: 0.1
   }
 }
