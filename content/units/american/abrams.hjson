@@ -10,7 +10,7 @@ range: 290
 treadPullOffset: 6
 treadRects: [
   {
-  x: 4
+  x: 6
   y: 2
   width: 2
   height: 6
