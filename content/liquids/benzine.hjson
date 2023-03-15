@@ -2,8 +2,8 @@ gas: false
 name: "Benzine"
 color: "ffca39ff"
 temperature: 0.6
-flammability: 0.7
+flammability: 1.5
 heatCapacity: 0.3
 viscosity: 0.8
-explosiveness: 0.8
+explosiveness: 1.2
 research: oil
