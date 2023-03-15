@@ -1,1 +1,10 @@
+gas: false
+name: "Diesel"
+color: "e89700ff"
+temperature: 0.7
+flammability: 1.2
+heatCapacity: 0.4
+viscosity: 1
+explosiveness: 0.7
+research: benzine
 
