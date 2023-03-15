@@ -40,7 +40,7 @@ weapons: [
 
  bullet: {
     type: ArtilleryBulletType
-    trailMult: 1.2
+    trailMult: 2.9
     shootEffect: shootBig2
     damage: 90
     speed: 4
