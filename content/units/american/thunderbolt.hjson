@@ -1,5 +1,5 @@
 name: A-10 Thunderbolt 
-type: flying
+type: 
 speed: 4.8
 accel: true
 drag: 0.2
@@ -11,3 +11,4 @@ engineOffset: 8
      engineSize: 2
      TargetAir: true
 radius: 35
+outLineColor:
