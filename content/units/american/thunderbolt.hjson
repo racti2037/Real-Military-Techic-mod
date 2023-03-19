@@ -1,5 +1,5 @@
 name: A-10 Thunderbolt 
-type: airunit 
+type: flying
 flying: true
 speed: 4.8
 accel: true
