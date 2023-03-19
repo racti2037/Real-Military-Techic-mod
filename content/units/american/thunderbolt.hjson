@@ -1,4 +1,5 @@
 name: A-10 Thunderbolt 
+type: airunit 
 flying: true
 speed: 4.8
 accel: true
@@ -7,6 +8,5 @@ health: 1000
 armor: 3
 commandLimit: 4
 engineOffset: 8
-     TargetAir: true
 radius: 35
 outLineColor: 2d2f39
