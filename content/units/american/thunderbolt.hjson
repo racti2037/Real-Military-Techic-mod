@@ -1,3 +1,14 @@
 name: A-10 Thunderbolt 
 type: flying
 speed: 4.8
+accel: true
+drag: 0.2
+flying: true
+health: 856
+armor: 3
+commandLimit: 4
+engineOffset: 8
+     engineSize: 2
+     TargetAir: true
+circleTarget: true
+radius: 35
