@@ -4,11 +4,10 @@ speed: 4.8
 accel: true
 drag: 0.2
 flying: true
-health: 856
+health: 1000
 armor: 3
 commandLimit: 4
 engineOffset: 8
      engineSize: 2
      TargetAir: true
-circleTarget: false
 radius: 35
