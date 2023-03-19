@@ -2,7 +2,7 @@ name: A-10 Thunderbolt
 type: flying
 flying: true
 speed: 4.8
-accel: true
+accel: 0.2
 drag: 0.2
 health: 1000
 armor: 3
