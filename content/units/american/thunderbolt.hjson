@@ -10,5 +10,5 @@ commandLimit: 4
 engineOffset: 8
      engineSize: 2
      TargetAir: true
-circleTarget: true
+circleTarget: false
 radius: 35
