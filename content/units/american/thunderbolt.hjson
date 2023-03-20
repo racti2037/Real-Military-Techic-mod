@@ -9,7 +9,7 @@
 "armor": 3,
 "commandLimit": 4,
 "engineOffset": 8,
-"radius": 280,
+"radius": 600,
 "outLineColor": 2d2f39,
 "weapons": [
        {
@@ -20,7 +20,7 @@
       "mirror": false,
       "rotate": false,
       "x": 0.5,
-      "y": 4,
+      "y": 7,
       "ejectEfect": "casing1",
         "recoilTime": 100,
 	"inaccuracy": 5,
@@ -29,7 +29,7 @@
            "type": "BasicBulletType",
            "damage": 12,
            "speed": 3,
-           "lifetime": 20,
+           "lifetime": 100,
       }
    }
 ]
