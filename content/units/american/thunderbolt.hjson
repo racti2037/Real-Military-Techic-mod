@@ -22,11 +22,11 @@
         "y": 4
         "x": 0.5
         "ejectEfect": "casing1"
-        "bullet": {
-        "type": "BasicBulletType"
-        "damage": 12
-        "speed": 3
-        "lifetime": 20
+         "bullet": {
+           "type": "BasicBulletType"
+           "damage": 12
+           "speed": 3
+           "lifetime": 20
         }
    }
 ]
