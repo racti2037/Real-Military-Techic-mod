@@ -1,5 +1,5 @@
 "name": "A-10 Thunderbolt",
-"hitSize": 7,
+"hitSize": 8,
 "type": flying,
 "flying": true,
 "speed": 2.8,
@@ -15,21 +15,21 @@
        {
       "name": "thunderbolt-weapon",
       "shootSound": pew,
-      "recoil": 0.2,
-      "reload": 0.3,
+      "recoil": 0.3,
+      "reload": 0.4,
       "mirror": false,
       "rotate": false,
-      "x": 0.5,
-      "y": 7,
+      "x": 0.7,
+      "y": 10,
       "ejectEfect": "casing1",
-        "recoilTime": 100,
-	"inaccuracy": 5,
+        "recoilTime": 90,
+	"inaccuracy": 4,
 
          "bullet": {
            "type": "BasicBulletType",
            "damage": 12,
-           "speed": 3,
-           "lifetime": 100,
+           "speed": 4,
+           "lifetime": 50,
       }
    }
 ]
