@@ -40,6 +40,7 @@ weapons: [
 
  bullet: {
     type: BasicBulletType
+    status: mutilation
     hitSize: 0.4
     shootEffect: shootBig2
     damage: 90
