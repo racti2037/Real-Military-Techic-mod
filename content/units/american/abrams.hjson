@@ -40,6 +40,8 @@ weapons: [
 
  bullet: {
     type: BasicBulletType
+        "frontColor": "FF976BFF"
+	"backColor": "DC7548FF"
     status: blasted
     hitSize: 0.4
     shootEffect: shootBig2
