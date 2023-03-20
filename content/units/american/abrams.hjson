@@ -10,7 +10,7 @@ range: 290
 treadPullOffset: 6
 treadRects: [
   {
-  x: 5
+  x: 6
   y: 4
   width: 5
   height: 6
@@ -27,7 +27,7 @@ weapons: [
  {
  name: abrams-weapon
  x: 0
- y: 0
+ y: 0.7
     rotateSpeed: 3
     mirror: false
     rotate: true
@@ -40,7 +40,7 @@ weapons: [
 
  bullet: {
     type: BasicBulletType
-    trailMult: 1.2
+    hitSize: 0.4
     shootEffect: shootBig2
     damage: 90
     speed: 4
