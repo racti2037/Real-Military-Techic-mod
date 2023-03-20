@@ -1,7 +1,8 @@
 name: A-10 Thunderbolt 
+hitSize: 7
 type: flying
 flying: true
-speed: 4.8
+speed: 2.8
 accel: 0.2
 drag: 0.2
 health: 1000
@@ -10,3 +11,4 @@ commandLimit: 4
 engineOffset: 8
 radius: 35
 outLineColor: 2d2f39
+
