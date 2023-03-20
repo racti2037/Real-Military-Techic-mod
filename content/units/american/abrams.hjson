@@ -49,8 +49,8 @@ weapons: [
    }
    {
     name: browning
- x: 2
- y: 2
+ x: 2.7
+ y: 1.6
     rotateSpeed: 4
     mirror: false
     rotate: true
@@ -63,7 +63,7 @@ weapons: [
     shootSound: pew
 
  bullet: {
-    type: BasicBulletType
+    type: ArtilleryBulletType
     damage: 9
     speed: 5
     lifeTime: 50
