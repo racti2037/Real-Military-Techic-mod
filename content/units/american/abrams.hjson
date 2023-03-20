@@ -39,9 +39,11 @@ weapons: [
     shootSound: artillery
 
  bullet: {
-    type: BasicBulletType
-        "frontColor": "FF976BFF"
-	"backColor": "DC7548FF"
+    type: ArtilleryBulletType
+    trailMult: 1.2 
+        trailColor: ff7f14ff
+        frontColor: ff9a00ff
+	backColor: ffa621ff
     status: blasted
     hitSize: 0.4
     shootEffect: shootBig2
