@@ -47,4 +47,26 @@ weapons: [
     lifeTime: 140
     }
    }
+   {
+    name: browning
+ x: 2
+ y: 2
+    rotateSpeed: 4
+    mirror: false
+    rotate: true
+    ignoreRotation: true
+    followRotation: false
+    rotateShooting: false
+    reload: 10
+    recoil: 2
+    recoilTime: 300
+    shootSound: pew
+
+ bullet: {
+    type: BasicBulletType
+    damage: 9
+    speed: 5
+    lifeTime: 50
+   }
+  }
  ]
