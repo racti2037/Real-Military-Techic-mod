@@ -64,10 +64,10 @@ weapons: [
     shootSound: pew
 
  bullet: {
-    type: MissileBulletType
+    type: BasicBulletType
     damage: 9
     speed: 5
-    lifeTime: 20
+    lifeTime: 10
    }
   }
  ]
