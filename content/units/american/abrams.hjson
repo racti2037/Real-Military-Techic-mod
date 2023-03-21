@@ -69,7 +69,7 @@ weapons: [
      recoil: 2
      recoilTime: 300
      shootSound: pew
-     ejectEffect: casing4
+     ejectEffect: casing1
 
  bullet: {
     type: BasicBulletType
