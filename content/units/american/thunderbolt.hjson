@@ -15,7 +15,7 @@
        {
       "name": "thunderbolt-weapon",
       "shootSound": pew,
-      "top": false,
+      "top": true,
       "recoil": 0.3,
       "reload": 0.4,
       "mirror": false,
