@@ -40,10 +40,12 @@ weapons: [
 
  bullet: {
     type: BasicBulletType
-    trailMult: 1.2 
+    trailMult: 0.8 
         trailColor: ff7f14ff
         frontColor: ff9a00ff
 	backColor: ffa621ff
+    width: 8
+    height: 10
     status: blasted
     hitSize: 0.4
     shootEffect: shootBig2
@@ -66,6 +68,7 @@ weapons: [
      recoil: 2
      recoilTime: 300
      shootSound: pew
+     ejectEffect: casing2
 
  bullet: {
     type: BasicBulletType
