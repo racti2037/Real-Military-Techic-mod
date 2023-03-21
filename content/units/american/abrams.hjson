@@ -55,11 +55,10 @@ weapons: [
     collides: true 
     collidesTiles: true
     collidesAir: true 
-    splashDamageRadius: 40
-    splashDamage: 28
-    hitEffect: instBomb
+    splashDamageRadius: 60
+    splashDamage: 45
     speed: 4
-    lifeTime: 140
+    lifeTime: 190
     }
    }
   
