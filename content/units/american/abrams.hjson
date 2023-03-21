@@ -72,8 +72,6 @@ weapons: [
     damage: 9
     speed: 5
     lifeTime: 10
-    }
-   }
   }
  }
 ]
