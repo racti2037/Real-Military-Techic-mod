@@ -55,7 +55,7 @@ weapons: [
     collides: true 
     collidesTiles: true
     collidesAir: true 
-    splashDamageRadius: 60
+    splashDamageRadius: 20
     splashDamage: 45
     speed: 4
     lifeTime: 190
