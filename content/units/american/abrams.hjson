@@ -31,6 +31,7 @@ weapons: [
     rotateSpeed: 3
     mirror: false
     rotate: true
+    shootEffect: shootBig2
     ignoreRotation: true
     followRotation: false
     rotateShooting: false
@@ -65,6 +66,7 @@ weapons: [
      ignoreRotation: true
      followRotation: false
      rotateShooting: false
+     shootEffect: shootSmall
      reload: 10
      recoil: 2
      recoilTime: 300
