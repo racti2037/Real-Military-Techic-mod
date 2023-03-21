@@ -41,7 +41,7 @@ weapons: [
     ejectEffect: casing2
 
  bullet: {
-    type: BasicBulletType
+    type: ArtilleryBulletType
     trailMult: 0.8 
         trailColor: ff7f14ff
         frontColor: ff9a00ff
@@ -52,6 +52,12 @@ weapons: [
     hitSize: 0.4
     shootEffect: shootBig2
     damage: 90
+    collides: true 
+    collidesTiles: true
+    collidesAir: true 
+    splashDamageRadius: 40
+    splashDamage: 28
+    hitEffect: instBomb
     speed: 4
     lifeTime: 140
     }
