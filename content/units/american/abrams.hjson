@@ -39,7 +39,7 @@ weapons: [
     shootSound: artillery
 
  bullet: {
-    type: ArtilleryBulletType
+    type: BasicBulletType
     trailMult: 1.2 
         trailColor: ff7f14ff
         frontColor: ff9a00ff
