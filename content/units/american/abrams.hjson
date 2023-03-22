@@ -57,7 +57,7 @@ weapons: [
     collidesAir: true 
     splashDamageRadius: 20
     splashDamage: 45
-    speed: 4
+    speed: 5
     lifeTime: 340
     }
    }
@@ -81,7 +81,7 @@ weapons: [
  bullet: {
     type: BasicBulletType
     damage: 9
-    speed: 5
+    speed: 4
     lifeTime: 10
   }
  }
