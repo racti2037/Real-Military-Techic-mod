@@ -1,5 +1,5 @@
 "name": "A-10 Thunderbolt",
-"hitSize": 8,
+"hitSize": 12,
 "type": flying,
 "flying": true,
 "speed": 2.8,
