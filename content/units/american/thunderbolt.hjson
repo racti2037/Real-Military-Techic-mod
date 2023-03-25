@@ -40,10 +40,10 @@
        reload: 370
        mirror: true 
        rotate: false
-       x: 13
+       x: 11
        y: -1
        ejectEffect: none
-        top: true
+        top: false
          
 	 bullet: {
 	  type: BasicBulletType
