@@ -51,7 +51,7 @@
 	  lifeTime: 0
 	  speed: 0
 	  damage: 0
-	  spawnUnit: maverickrocket
+	  spawnUnit: maverickmissile
   }
  }
 ]
