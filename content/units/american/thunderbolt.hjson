@@ -40,8 +40,8 @@
        reload: 370
        mirror: true 
        rotate: false
-       x: 5
-       y: 4
+       x: 7
+       y: 5
        ejectEffect: none
          
 	 bullet: {
