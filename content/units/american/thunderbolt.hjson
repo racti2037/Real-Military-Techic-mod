@@ -21,7 +21,7 @@
       "mirror": false,
       "rotate": false,
       "x": 0.7,
-      "y": 14,
+      "y": 17,
       "ejectEfect": "casing1",
         "recoilTime": 90,
 	"inaccuracy": 4,
@@ -40,8 +40,8 @@
        reload: 370
        mirror: true 
        rotate: false
-       x: 7
-       y: 5
+       x: 10
+       y: 0
        ejectEffect: none
          
 	 bullet: {
