@@ -4,15 +4,15 @@ controller: MissileAI
 flying: true
 speed: 3.8
 maxRange: 3
-lifeTime: 230
+lifeTime: 200
 hidden: true
 envEnabled: 17 
 envDisabled: 0 
-outlineColor: 2d2f39 
+outlineColor: 
 engineColor: c0ecff 
 trailColor: c0ecff 
 engineSize: 1.8 
-engineOffset: 5
+engineOffset: 7
 rotateSpeed: 1.25 
 trailLength: 10 
 missileAccelTime: 30 
