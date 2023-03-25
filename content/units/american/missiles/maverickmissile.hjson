@@ -8,9 +8,9 @@ lifeTime: 200
 hidden: true
 envEnabled: 17 
 envDisabled: 0 
-outlineColor: 
-engineColor: c0ecff 
-trailColor: c0ecff 
+outlineColor: 2d2f39
+engineColor: ff770e 
+trailColor: ffb114
 engineSize: 1.8 
 engineOffset: 7
 rotateSpeed: 1.25 
@@ -39,7 +39,7 @@ weapons: [
         bullet: {
        type: BombBulletType
        splashDamageRadius: 40 
-       splashDamage: 300 
+       splashDamage: 340 
        instantDisappear: true 
        killShooter: true 
        hittable: false 
@@ -52,8 +52,8 @@ weapons: [
            sizeTo: 40 
            strokeFrom: 5 
            strokeTo: 0 
-           colorFrom: c0ecff 
-           colorTo: c0ecff 
+           colorFrom: ffca14
+           colorTo: ffc014
          } 
          ] 
          } 
