@@ -33,6 +33,25 @@
            "lifetime": 70,
       }
    }
+       {
+       name: maverick
+       shootSound: pew
+       top: false
+       recoil: 60
+       reload: 370
+       mirror: true 
+       rotate: false
+       x: 5
+       y: 4
+       ejectEffect: none
+       recoilTime: 200
+         
+	 bullet: {
+	  type: BasicBulletType
+	  lifeTime: 0
+	  speed: 0
+	  damage: 0
+	  spawnUnit: maverickrocket
 ]
 
         
