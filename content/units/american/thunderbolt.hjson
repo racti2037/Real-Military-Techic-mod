@@ -21,7 +21,7 @@
       "mirror": false,
       "rotate": false,
       "x": 0.7,
-      "y": 24,
+      "y": 26,
       "ejectEfect": "casing1",
         "recoilTime": 90,
 	"inaccuracy": 4,
@@ -41,7 +41,7 @@
        mirror: true 
        rotate: false
        x: 18
-       y: 0.7
+       y: 0.65
 
 
        ejectEffect: none
