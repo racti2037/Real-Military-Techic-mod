@@ -40,8 +40,8 @@
        reload: 370
        mirror: true 
        rotate: false
-       x: 16
-       y: 0.6
+       x: 18
+       y: 0.7
 
 
        ejectEffect: none
