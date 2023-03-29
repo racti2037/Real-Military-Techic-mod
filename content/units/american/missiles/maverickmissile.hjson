@@ -4,7 +4,7 @@ controller: MissileAI
 flying: true
 speed: 3.8
 maxRange: 3
-lifeTime: 200
+lifeTime: 70
 hidden: true
 envEnabled: 17 
 envDisabled: 0 
@@ -38,7 +38,7 @@ weapons: [
        
         bullet: {
        type: BombBulletType
-       splashDamageRadius: 40 
+       splashDamageRadius: 40
        splashDamage: 340 
        instantDisappear: true 
        killShooter: true 
