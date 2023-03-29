@@ -4,7 +4,7 @@ controller: MissileAI
 flying: true
 speed: 3.8
 maxRange: 1
-lifeTime: 20
+lifeTime: 10
 hidden: true
 envEnabled: 17 
 envDisabled: 0 
@@ -53,7 +53,8 @@ weapons: [
            strokeFrom: 5 
            strokeTo: 0 
            colorFrom: ffca14
-           colorTo: ffo018
+           colorTo: ffo010
+
 
          } 
          ] 
