@@ -5,7 +5,7 @@
 "speed": 2.8,
 "accel": 0.2,
 "drag": 0.2,
-"health": 770,
+"health": 790,
 "armor": 5,
 "commandLimit": 4,
 "engineOffset": 8,
@@ -41,7 +41,7 @@
        mirror: true 
        rotate: false
        x: 18
-       y: 0.65
+       y: 0.6
 
 
        ejectEffect: none
