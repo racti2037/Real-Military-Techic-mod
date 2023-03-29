@@ -4,7 +4,7 @@ controller: MissileAI
 flying: true
 speed: 3.8
 maxRange: 3
-lifeTime: 70
+lifeTime: 20
 hidden: true
 envEnabled: 17 
 envDisabled: 0 
@@ -15,7 +15,7 @@ engineSize: 1.8
 engineOffset: 7
 rotateSpeed: 1.25 
 trailLength: 10 
-missileAccelTime: 30 
+missileAccelTime: 20 
 lowAltitude: true 
 fogRadius: 2 
 health: 50
@@ -27,7 +27,7 @@ createWreck: false
 createScorch: false
 weapons: [
     {
-       shootCone: 200
+       shootCone: 140
        mirror: false
        shootOnDeath: true 
        shootEffect: none 
@@ -48,7 +48,7 @@ weapons: [
          { 
            type: WaveEffect 
            lifetime: 25 
-           sizeFrom: 0 
+           sizeFrom: 10 
            sizeTo: 40 
            strokeFrom: 5 
            strokeTo: 0 
