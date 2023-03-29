@@ -9,7 +9,7 @@
 "armor": 5,
 "commandLimit": 4,
 "engineOffset": 8,
-"radius": 230,
+"radius": 70,
 "outLineColor": 2d2f39,
 "weapons": [
        {
