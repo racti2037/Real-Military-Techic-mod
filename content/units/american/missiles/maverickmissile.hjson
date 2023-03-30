@@ -3,7 +3,7 @@ type: missile
 controller: MissileAI
 flying: true
 speed: 3.8
-maxRange: 1
+maxRange: 7
 lifeTime: 10
 hidden: true
 radius: 80
@@ -40,7 +40,7 @@ weapons: [
         bullet: {
        type: BombBulletType
        splashDamageRadius: 40
-       splashDamage: 340 
+       splashDamage: 240 
        instantDisappear: true 
        killShooter: true 
        hittable: false 
