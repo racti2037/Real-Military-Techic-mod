@@ -9,7 +9,7 @@
 "armor": 5,
 "commandLimit": 4,
 "engineOffset": 8,
-"radius": 60,
+"radius": 680,
 "outLineColor": 2d2f39,
 "weapons": [
        {
@@ -30,7 +30,7 @@
            "type": "BasicBulletType",
            "damage": 8,
            "speed": 4,
-           "lifetime": 70,
+           "lifetime": 90,
       }
    }
        {
