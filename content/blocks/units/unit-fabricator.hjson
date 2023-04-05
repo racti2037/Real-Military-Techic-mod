@@ -12,11 +12,12 @@ consumes: {
 
 plans: [
   {
-    unit: M1A2 Abrams
+    unit: abrams
     time: 128
     requirements: [
       copper/100
       silicon/50
+      titanium/45
     ]
   }
   {
