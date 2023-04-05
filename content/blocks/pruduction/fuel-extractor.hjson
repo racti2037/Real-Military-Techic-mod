@@ -9,12 +9,12 @@ liqudCapacity: 30
 consumes: {
    power: 2
     liquids:[
-    oil/2
+    oil/0.4
 ]
 }
 outputLiquids: [
-benzine/1.3
-diesel/0.8
+benzine/0.3
+diesel/0.2
 ]
 requirements: [
 titanium/80
