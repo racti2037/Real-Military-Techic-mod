@@ -32,7 +32,7 @@ plans: [
 ]
 
 requirements: [
-  silicone/450
+  silicon/450
   titanium/500
   lead/900
 ]
