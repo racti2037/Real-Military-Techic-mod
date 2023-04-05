@@ -3,9 +3,24 @@ type: GenericCrafter
 size: 2
 hasPower: true
 hasLiquid: true
+craftTime: 110
 health: 70
 liqudCapacity: 30
-consumes:
+consumes: {
    power: 2
     liquids:[
-    oil
+    oil/2
+]
+}
+outputLiquids: [
+benzine/1.3
+diesel/0.8
+]
+requirements: [
+titanium/80
+silicon/60
+lead/38
+metalglass/20
+]
+reasearch: oil extractor 
+category: crafting
