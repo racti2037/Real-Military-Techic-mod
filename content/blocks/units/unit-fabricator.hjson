@@ -21,10 +21,12 @@ plans: [
     ]
   }
   {
-    unit: Maus
+    unit: thunderbolt
     time: 200
     requirements: [
-      silicon/500
+      silicon/125
+      plastanium/50
+      Titanium/65
     ]
   }
 ]
