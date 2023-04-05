@@ -7,4 +7,5 @@ health: 70
 liqudCapacity: 30
 consumes:
    power: 2
-    liquids:
+    liquids:[
+    oil
