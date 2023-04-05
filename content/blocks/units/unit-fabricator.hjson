@@ -32,7 +32,9 @@ plans: [
 ]
 
 requirements: [
-  hack-circuit/45
+  silicone/450
+  titanium/500
+  lead/900
 ]
 
 category: units
