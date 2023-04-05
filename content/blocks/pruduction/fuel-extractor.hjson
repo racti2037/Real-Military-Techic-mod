@@ -1,0 +1,10 @@
+name: Fuel extractor
+type: GenericCrafter
+size: 2
+hasPower: true
+hasLiquid: true
+health: 70
+liqudCapacity: 30
+consumes:
+   power: 2
+    liquids:
