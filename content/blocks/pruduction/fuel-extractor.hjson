@@ -3,11 +3,12 @@ type: GenericCrafter
 size: 2
 hasPower: true
 hasLiquid: true
+hasItems: false
 craftTime: 90
 health: 170
 liqudCapacity: 120
 consumes: {
-   power: 2
+   power: 1.6
     liquids:[
     oil/0.4
 ]
@@ -22,7 +23,7 @@ titanium/80
 silicon/60
 ]
 research: { 
-parent: silicon-smelter 
+parent: kiln
 requirements: [
  lead/2200
  silicon/1000
