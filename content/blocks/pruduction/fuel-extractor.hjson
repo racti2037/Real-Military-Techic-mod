@@ -23,7 +23,7 @@ lead/38
 metaglass/20
 ]
 reasearch: { 
-  parent: silicon-smelter
+  parent: silicone-smelter
   requirements: [
     silicon/200
     titanium/500
