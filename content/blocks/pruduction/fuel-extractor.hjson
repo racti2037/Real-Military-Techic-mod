@@ -22,13 +22,5 @@ silicon/60
 lead/38
 metaglass/20
 ]
-reasearch: { 
-  parent: kiln
-  requirements: [
-    silicon/200
-    titanium/500
-    metaglass/180
-    lead/300
-  ]
-}
+parent: kiln
 category: crafting
