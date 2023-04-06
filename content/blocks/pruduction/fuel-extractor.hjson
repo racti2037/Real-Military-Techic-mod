@@ -22,5 +22,13 @@ silicon/60
 lead/38
 metaglass/20
 ]
-reasearch: oil-extractor 
+reasearch: { 
+  parent: silicon-smelter
+  requirements: [
+    silicon/200
+    titanium/500
+    metaglass/180
+    lead/300
+  ]
+}
 category: crafting
