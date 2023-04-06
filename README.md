@@ -6,7 +6,7 @@ Mod adds:
 
 2 units
 
-1 block
+3 block
 
 2 liquids
 
