@@ -3,8 +3,8 @@ type: GenericCrafter
 size: 2
 hasPower: true
 hasLiquid: true
-craftTime: 110
-health: 70
+craftTime: 90
+health: 170
 liqudCapacity: 90
 consumes: {
    power: 2
