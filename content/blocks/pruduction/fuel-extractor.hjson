@@ -6,7 +6,7 @@ hasLiquid: true
 hasItems: false
 craftTime: 90
 health: 170
-liqudCapacity: 120
+liqudCapacity: 30
 consumes: {
    power: 1.6
     liquids:[
