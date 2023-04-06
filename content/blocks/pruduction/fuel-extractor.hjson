@@ -17,10 +17,16 @@ benzine/0.3
 diesel/0.2
 ]
 requirements: [
+lead/120
 titanium/80
 silicon/60
-lead/38
-metaglass/20
 ]
-research: kiln
+research: { 
+parent: ground-factory 
+requirements: [
+ lead/2200
+ silicon/1000
+ titanium/700
+  ]
+}
 category: crafting
