@@ -5,7 +5,7 @@ hasPower: true
 hasLiquid: true
 craftTime: 90
 health: 170
-liqudCapacity: 90
+liqudCapacity: 120
 consumes: {
    power: 2
     liquids:[
@@ -14,7 +14,7 @@ consumes: {
 }
 outputLiquids: [
 benzine/0.3
-diesel/0.2
+diesel/0.3
 ]
 requirements: [
 lead/120
