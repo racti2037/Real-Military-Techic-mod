@@ -22,7 +22,7 @@ titanium/80
 silicon/60
 ]
 research: { 
-parent: ground-factory 
+parent: silicon-smelter 
 requirements: [
  lead/2200
  silicon/1000
