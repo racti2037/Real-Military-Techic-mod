@@ -8,8 +8,8 @@ hasPower: true
 liquidCapacity: 30
 powerProduction: 2.2
 consumes: {
-[
-liquid: diesel
+liquid: [
+ diesel/2
 ]
 }
 
