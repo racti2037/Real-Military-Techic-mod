@@ -1,0 +1,5 @@
+name: Diesel generator
+health: 460
+hasLiquid: true
+hasItems: false
+hasPower: true
