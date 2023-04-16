@@ -1,6 +1,6 @@
 name: Diesel generator
-type: consumesGenerator
-size:2
+type: ConsumesGenerator
+size: 2
 health: 460
 hasLiquid: true
 hasItems: false
@@ -8,8 +8,7 @@ hasPower: true
 liquidCapacity: 30
 powerProduction: 2.2
 consumes: {
-liquid: [
- diesel/2
+liquid: [ diesel/2
 ]
 }
 
