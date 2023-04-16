@@ -19,7 +19,7 @@ graphite/80
 silicon/60
 ]
 research: { 
-parent: benzizne-generator
+parent: benzine-generator
 requirements: [
 copper/1400
 lead/1000
