@@ -6,10 +6,10 @@ hasLiquid: true
 hasItems: false
 hasPower: true
 liquidCapacity: 30
-powerProduction: 2.2
+powerProduction: 1.8
 consumes: {
 liquids: [ 
-  diesel/2
+  diesel/0.3
 ]
 }
 requirements: [
