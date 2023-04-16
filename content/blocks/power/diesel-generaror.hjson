@@ -8,7 +8,7 @@ hasPower: true
 liquidCapacity: 30
 powerProduction: 2.2
 consumes: {
-liquid: [ 
+liquids: [ 
   diesel/2
 ]
 }
@@ -19,7 +19,7 @@ graphite/80
 silicon/60
 ]
 research: { 
-parent: kiln
+parent: benzizne-generator
 requirements: [
 copper/1400
 lead/1000
