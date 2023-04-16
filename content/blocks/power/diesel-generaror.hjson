@@ -8,8 +8,26 @@ hasPower: true
 liquidCapacity: 30
 powerProduction: 2.2
 consumes: {
-liquid: [ diesel/2
+liquid: [ 
+  diesel/2
 ]
 }
+requirements: [
+copper/140
+lead/100
+graphite/80
+silicon/60
+]
+research: { 
+parent: kiln
+requirements: [
+copper/1400
+lead/1000
+graphite/800
+silicon/600
+  ]
+}
+category: power
+
 
 
