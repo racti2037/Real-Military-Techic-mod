@@ -5,11 +5,14 @@ health: 460
 hasLiquid: true
 hasItems: false
 hasPower: true
+outputsPower: true
+breakable: true
+buildCostMultiplier: 0.5
 liquidCapacity: 30
 powerProduction: 1.8
 consumes: {
 liquids: [ 
-  diesel/0.3
+  diesel/0.2
 ]
 }
 drawer: {
