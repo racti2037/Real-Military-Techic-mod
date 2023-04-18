@@ -8,7 +8,7 @@ outputsPower: true
 breakable: true
 buildCostMultiplier: 0.4
 liquidCapacity: 20
-powerProduction: 2.1
+powerProduction: 3.5
 consumes: {
   liquid: {
     liquid: diesel
