@@ -6,4 +6,6 @@ flammability: 1.5
 heatCapacity: 0.3
 viscosity: 0.3
 explosiveness: 1.2
-research: oil
+research: {
+perent: oil
+}
