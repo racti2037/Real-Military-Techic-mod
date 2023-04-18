@@ -15,17 +15,18 @@ liquids: [
 drawer: {
 type: DrawMulti
  drawers: [
+    {
    type: DrawRegion
     suffix: -bottom
-    ]
-    [
+    }
+    {
     type: DrawLiquidTile
     drawLiquid: diesel
     suffix: -liquid
-    ]
-    [
+    }
+    {
     type: DrawDefault
-    ]
+    }
  ]
 }
 requirements: [
