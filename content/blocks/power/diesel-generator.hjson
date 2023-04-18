@@ -1,53 +1,40 @@
-name: Diesel generator
-type: ConsumesGenerator
+type: "ConsumeGenerator"
+name: "Diesel generator"
+health: 400
 size: 2
-health: 460
 hasLiquid: true
-hasItems: false
-hasPower: true
+placeableLiquid: false
 outputsPower: true
 breakable: true
-buildCostMultiplier: 0.5
-liquidCapacity: 30
-powerProduction: 1.8
+buildCostMultiplier: 0.4
+liquidCapacity: 20
+powerProduction: 2.1
 consumes: {
-liquids: [ 
-  diesel/0.2
-]
-}
-drawer: {
-type: DrawMulti
- drawers: [
-    {
-   type: DrawRegion
-    suffix: -bottom
-    }
-    {
-    type: DrawLiquidTile
-    drawLiquid: diesel
-    suffix: -liquid
-    }
-    {
-    type: DrawDefault
-    }
- ]
+  liquid: {
+    liquid: diesel
+    amount: 0.2
+  }
 }
 requirements: [
-copper/140
-lead/100
-graphite/80
-silicon/60
+    {
+    ltem: copper
+    amount: 50
+	},
+  {
+    ltem: silicon
+    amount: 35
+	},
+	{
+    item: lead,
+    amount: 40
+    },
+	{
+    item: graphite,
+    amount: 25
+    },
 ]
-research: { 
-parent: benzine-generator
-requirements: [
-copper/1400
-lead/1000
-graphite/800
-silicon/600
-  ]
-}
-category: power
+category: "power" 
+research: benzine-generator
 
 
 
