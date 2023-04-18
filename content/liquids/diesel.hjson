@@ -6,5 +6,7 @@ flammability: 1.2
 heatCapacity: 0.4
 viscosity: 0.4
 explosiveness: 0.7
-research: benzine
+research: {
+perent: benzine
+}
 
