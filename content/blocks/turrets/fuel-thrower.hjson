@@ -1,0 +1,35 @@
+type: liquidTurret
+name: Fuel thrower
+size: 2
+health: 780
+rotateSpeed: 4
+targetAir: true
+targetGround: true
+range: 130
+shootCone: 3
+shootSound: spray
+spread:10
+rotateSpeed: 8
+inaccuracy: 3.5
+ammoTypes: {
+ benzine: {
+    type: liquidBulletType
+    liquid: benzine
+    lifetime: 70
+    speed: 5
+    knockback: 3
+    puddleSize: 16
+    orbSize: 4
+    damage: 12
+    drag: 0.002
+    statusDuration: 50
+    status: burning 
+  }
+    }
+category: turret
+research: salvo
+
+
+
+
+
