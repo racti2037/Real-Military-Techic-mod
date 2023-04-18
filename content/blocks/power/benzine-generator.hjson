@@ -2,7 +2,7 @@ type: "ConsumeGenerator"
 name: "Benzine generator"
 health: 55
 size: 1
-hasLiuid: true
+hasLiquid: true
 placeableLiquid: false
 outputsPower: true
 breakable: true
