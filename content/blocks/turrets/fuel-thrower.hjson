@@ -15,11 +15,11 @@ ammoTypes: {
  benzine: {
     type: liquidBulletType
     liquid: benzine
-    lifetime: 70
+    lifetime: 20
     speed: 3
     knockback: 3
-    puddleSize: 2
-    orbSize: 2
+    puddleSize: 0.1
+    orbSize: 0.4
     damage: 12
     drag: 0.002
     statusDuration: 50
