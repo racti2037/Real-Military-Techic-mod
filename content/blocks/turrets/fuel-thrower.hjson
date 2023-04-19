@@ -28,7 +28,7 @@ ammoTypes: {
     }
 requirements: [
   copper/230
-  metaglas/50
+  metaglass/50
   titanium/60
 ]
 category: turret
