@@ -18,10 +18,10 @@ ammoTypes: {
     lifetime: 50
     speed: 3
     knockback: 3
-    puddleSize: 0.6
-    orbSize: 1.4
+    puddleSize: 1.6
+    orbSize: 2
     damage: 12
-    drag: 0.002
+    drag: 0.02
     statusDuration: 50
     status: burning 
   }
