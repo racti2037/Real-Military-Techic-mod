@@ -26,6 +26,11 @@ ammoTypes: {
     status: burning 
   }
     }
+requirements: [
+  copper/230
+  metaglas/50
+  titanium/60
+]
 category: turret
 research: salvo
 
