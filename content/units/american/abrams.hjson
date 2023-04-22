@@ -1,6 +1,6 @@
 name: M1A2 Abrams
 type: tank
-hitSize: 17
+hitSize: 19
 omniMovement: false
 health: 1890
 armor: 12
@@ -10,8 +10,8 @@ range: 290
 treadPullOffset: 6
 treadRects: [
   {
-  x: 6
-  y: 4
+  x: 8
+  y: 6
   width: 5
   height: 6
   }
@@ -58,7 +58,7 @@ weapons: [
     splashDamageRadius: 20
     splashDamage: 45
     speed: 5
-    lifeTime: 390
+    lifeTime: 3
     }
    }
    {
