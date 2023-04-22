@@ -10,18 +10,18 @@ range: 290
 treadPullOffset: 6
 treadRects: [
   {
-  x: 8
-  y: 6
-  width: 5
-  height: 6
+  x: 10
+  y: 8
+  width: 7
+  height: 8
   }
   {
-  x: 5
-  height: 5
+  x: 7
+  height: 7
   }
 ]
 envEnabled: 17
-envDisabled: 0
+envDisabled: 1
 outlineColor: "2d2f39"
 weapons: [
  {
@@ -29,6 +29,8 @@ weapons: [
  x: 0
  y: 0.7
     rotateSpeed: 3
+    targetAir: false
+    targetGround: true
     mirror: false
     rotate: true
     shootEffect: shootBig2
@@ -58,7 +60,7 @@ weapons: [
     splashDamageRadius: 20
     splashDamage: 45
     speed: 5
-    lifeTime: 3
+    lifeTime: 0
     }
    }
    {
@@ -82,7 +84,7 @@ weapons: [
     type: BasicBulletType
     damage: 9
     speed: 4
-    lifeTime: 10
+    lifeTime: 10000
   }
  }
 ]
