@@ -21,7 +21,7 @@ treadRects: [
   }
 ]
 envEnabled: 17
-envDisabled: 1
+envDisabled: 0
 outlineColor: "2d2f39"
 weapons: [
  {
@@ -40,7 +40,7 @@ weapons: [
     reload: 90
     recoil: 4
     shootSound: artillery
-    ejectEffect: casing2
+    ejectEffect: casing3
 
  bullet: {
     type: ArtilleryBulletType
