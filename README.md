@@ -4,7 +4,7 @@ It's hjson mod
 
 Mod adds:
 
-2 units
+3 units
 
 3 block
 
