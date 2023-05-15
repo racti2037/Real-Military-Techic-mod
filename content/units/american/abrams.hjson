@@ -40,7 +40,6 @@ weapons: [
     reload: 90
     recoil: 4
     shootSound: artillery
-    ejectEffect: casing3
 
  bullet: {
     type: ArtilleryBulletType
