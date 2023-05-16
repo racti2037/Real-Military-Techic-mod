@@ -47,15 +47,16 @@ weapons: [
         trailColor: ff7f14ff
         frontColor: ff9a00ff
 	    backColor: ffa621ff
-      width: 2
-      height: 5
-      hitSize: 0.2
+      width: 3
+      height: 6
+      hitSize: 0.3
       shootEffect: shootBig
       damage: 13
       collides: true 
       collidesTiles: true
       collidesAir: true 
       lifeTime: 30
+      speed: 2.5
       }
      }
      ]
