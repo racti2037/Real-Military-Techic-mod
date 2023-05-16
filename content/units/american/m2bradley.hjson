@@ -33,15 +33,29 @@ weapons: [
     targetGround: true
     mirror: false
     rotate: true
-    shootEffect: shootBig1
+    shootEffect: 
     ignoreRotation: true
     followRotation: false
     rotateShooting: false
     reload: 30
     recoil: 2
-    shootSound: pew 
+    shootSound: shoot
     
-     bullet: [
-     {
-     
+     bullet: {
+      type: BasicBulletType
+      trailMult: 0.8 
+        trailColor: ff7f14ff
+        frontColor: ff9a00ff
+	    backColor: ffa621ff
+      width: 2
+      height: 5
+      hitSize: 0.2
+      shootEffect: shootBig
+      damage: 13
+      collides: true 
+      collidesTiles: true
+      collidesAir: true 
+      }
+     }
+      
     
