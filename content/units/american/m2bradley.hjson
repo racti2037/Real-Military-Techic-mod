@@ -57,5 +57,6 @@ weapons: [
       collidesAir: true 
       }
      }
+     ]
       
     
