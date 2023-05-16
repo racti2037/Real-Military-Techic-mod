@@ -26,9 +26,9 @@ outlineColor: "2d2f39"
 weapons: [
  {
  name: bradley-weapon
- x: 0
- y: 0.7
-    rotateSpeed: 3
+ x: 0.2
+ y: 0
+    rotateSpeed: 1.5
     targetAir: true
     targetGround: true
     mirror: false
@@ -37,8 +37,8 @@ weapons: [
     ignoreRotation: true
     followRotation: false
     rotateShooting: false
-    reload: 30
-    recoil: 2
+    reload: 20
+    recoil: 1.7
     shootSound: shoot
     
      bullet: {
