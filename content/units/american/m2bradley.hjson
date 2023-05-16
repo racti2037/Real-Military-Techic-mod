@@ -55,6 +55,7 @@ weapons: [
       collides: true 
       collidesTiles: true
       collidesAir: true 
+      lifeTime: 30
       }
      }
      ]
