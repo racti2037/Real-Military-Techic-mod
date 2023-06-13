@@ -26,8 +26,8 @@ outlineColor: "2d2f39"
 weapons: [
  {
  name: m2bredley-weapon
- x: 0.2
- y: 0
+ x: -0.8
+ y: -0.5
     rotateSpeed: 1.5
     targetAir: true
     targetGround: true
@@ -47,15 +47,15 @@ weapons: [
         trailColor: ff7f14ff
         frontColor: ff9a00ff
 	    backColor: ffa621ff
-      width: 3
-      height: 6
+      width: 4
+      height: 7
       hitSize: 0.3
       shootEffect: shootBig
       damage: 13
       collides: true 
       collidesTiles: true
       collidesAir: true 
-      lifeTime: 40
+      lifeTime: 50
       speed: 2.5
       }
      }
