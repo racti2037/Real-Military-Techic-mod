@@ -27,7 +27,7 @@ weapons: [
  {
  name: m2bredley-weapon
  x: -0.8
- y: -0.5
+ y: 1
     rotateSpeed: 1.5
     targetAir: true
     targetGround: true
