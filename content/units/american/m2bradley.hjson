@@ -25,7 +25,7 @@ envDisabled: 2
 outlineColor: "2d2f39"
 weapons: [
  {
- name: bradley-weapon
+ name: browning 
  x: 0.2
  y: 0
     rotateSpeed: 1.5
