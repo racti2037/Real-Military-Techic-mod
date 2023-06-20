@@ -6,7 +6,7 @@ health: 1148
 armor: 6
 speed: 0.9
 rotateSpeed: 2.3
-range: 120
+range: 180
 treadPullOffset: 4
 treadRects: [
   {
@@ -26,9 +26,9 @@ outlineColor: "2d2f39"
 weapons: [
  {
  name: m2bredley-weapon
- x: 1
- y: 1
-    rotateSpeed: 1.5
+ x: 1.4
+ y: 1.1
+    rotateSpeed: 3
     targetAir: true
     targetGround: true
     mirror: false
@@ -37,7 +37,7 @@ weapons: [
     ignoreRotation: true
     followRotation: false
     rotateShooting: false
-    reload: 20
+    reload: 25
     recoil: 1.7
     shootSound: shoot
     
@@ -56,7 +56,7 @@ weapons: [
       collidesTiles: true
       collidesAir: true 
       lifeTime: 60
-      speed: 2.2
+      speed: 3
       }
      }
      ]
