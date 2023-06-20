@@ -1,6 +1,6 @@
 name: M1A2 Abrams
 type: tank
-hitSize: 40
+hitSize: 34
 omniMovement: false
 health: 1890
 armor: 12
