@@ -1,6 +1,6 @@
 type: tank
 name: M2 Bradley
-hitSize: 30
+hitSize: 28
 omniMovement: false
 health: 1148
 armor: 6
