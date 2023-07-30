@@ -74,7 +74,7 @@ weapons: [
     rotateShooting: false
     reload: 90
     recoil: 2.7
-    shootSound: launch
+    shootSound: missileSmall 
 bullet: {
 	  type: BasicBulletType
 	  lifeTime: 0
