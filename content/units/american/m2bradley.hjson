@@ -26,8 +26,8 @@ outlineColor: "2d2f39"
 weapons: [
  {
  name: m2bredley-weapon
- x: 1.4
- y: 1.1
+ x: 1.8
+ y: 1.5
     rotateSpeed: 3
     shootY: 17
     targetAir: true
@@ -62,8 +62,8 @@ weapons: [
      }
 {
  name: m2bredley-tow
- x: 1.4
- y: 1.1
+ x: 1.8
+ y: 1.5
     rotateSpeed: 3
     shootX: -7.2
     shootY: 5
