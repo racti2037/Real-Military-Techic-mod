@@ -29,7 +29,7 @@ weapons: [
  x: 1.4
  y: 1.1
     rotateSpeed: 3
-    shootY: 4
+    shootY: 8
     targetAir: true
     targetGround: true
     mirror: false
@@ -65,8 +65,8 @@ weapons: [
  x: 1.4
  y: 1.1
     rotateSpeed: 3
-    shootX: 5
-    shootY: 4
+    shootX: -7
+    shootY: 5
     targetAir: false
     targetGround: true
     mirror: false
