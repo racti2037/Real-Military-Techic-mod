@@ -65,7 +65,7 @@ weapons: [
  x: 1.9
  y: -1.1
     rotateSpeed: 3
-    shootX: -7.4
+    shootX: -7.8
     shootY: 5
     targetAir: false
     targetGround: true
