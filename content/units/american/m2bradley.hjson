@@ -41,6 +41,20 @@ weapons: [
     reload: 25
     recoil: 1.7
     shootSound: shoot
+    parts: [
+{
+          type: RegionPart
+          suffix: -barrel
+          under: true
+          moves: [
+            {
+              type: PartMove
+              progress: recoil
+              y: -1.5
+            }
+         ]
+      }
+  ]
     
      bullet: {
       type: BasicBulletType
