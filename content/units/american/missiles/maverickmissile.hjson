@@ -3,7 +3,7 @@ type: missile
 controller: MissileAI
 flying: true
 speed: 3.8
-maxRange: 7
+maxRange: 4
 lifeTime: 0.1
 hidden: true
 targetAir: false
