@@ -7,17 +7,14 @@ armor: 12
 speed: 0.8
 rotateSpeed: 2
 range: 290
-treadPullOffset: 6
+treadFrames: 18
+treadPullOffset: 8
 treadRects: [
   {
   x: 10
   y: 8
   width: 7
   height: 8
-  }
-  {
-  x: 7
-  height: 7
   }
 ]
 envEnabled: 17
