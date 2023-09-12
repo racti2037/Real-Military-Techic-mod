@@ -28,7 +28,7 @@
 
          "bullet": {
            "type": "BasicBulletType",
-           "damage": 8,
+           "damage": 18,
            "speed": 4,
            "lifetime": 80,
       }
