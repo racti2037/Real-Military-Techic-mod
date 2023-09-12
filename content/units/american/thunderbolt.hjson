@@ -33,7 +33,6 @@
            "lifetime": 80,
            "splashDamage": 18,
            "splashDamageRadius": 12,
-           "fragBullets": 7
       }
    }
        {
