@@ -5,9 +5,8 @@
 "speed": 2.8,
 "accel": 0.2,
 "drag": 0.2,
-"health": 790,
+"health": 850,
 "armor": 5,
-"commandLimit": 4,
 "engineOffset": 8,
 "radius": 680,
 "outLineColor": 2d2f39,
@@ -28,19 +27,11 @@
 
          "bullet": {
            "type": "BasicBulletType",
-           "damage": 0,
-           "speed": 0,
-           "lifetime": 0,
-           "fragBullets": 4
-           "fragRandomSpread": 1,
-           "fragBullet": {
-              "type": "BasicBulletType",
-              "damage": 18,
-              "speed": 4,
-              "lifetime": 80,
-              "splashDamage": 18,
-              "splashDamageRadius": 12
-         }
+           "damage": 18,
+           "speed": 4,
+           "lifetime": 80,
+           "splashDamage": 18,
+           "splashDamageRadius": 12,
       }
    }
        {
