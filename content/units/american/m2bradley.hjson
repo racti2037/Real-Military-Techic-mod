@@ -80,8 +80,8 @@ weapons: [
  x: 1.9
  y: -1.1
     rotateSpeed: 3
-    shootX: -8
-    shootY: 5
+    shootX: -8.1
+    shootY: 5.1
     targetAir: false
     targetGround: true
     mirror: false
