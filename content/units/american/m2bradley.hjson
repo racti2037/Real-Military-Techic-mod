@@ -9,10 +9,12 @@ rotateSpeed: 2.3
 range: 180
 treadPullOffset: 4
 treadRects: [
+{
   x: 3
   y: 7
   width: 1
   height: 2
+}
 ]
 envEnabled: 14
 envDisabled: 2
@@ -41,7 +43,7 @@ weapons: [
           suffix: -barrel
           outline: true
           under: true
-          x: 2
+          y: 2
           moves: [
             {
               type: PartMove
