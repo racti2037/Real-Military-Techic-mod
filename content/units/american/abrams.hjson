@@ -26,7 +26,7 @@ weapons: [
  name: abrams-weapon
  x: 0
  y: 0.7
-    rotateSpeed: 3
+    rotateSpeed: 1.5
     shootY: 21
     targetAir: false
     targetGround: true
@@ -86,13 +86,13 @@ weapons: [
      mirror: false
      rotate: true
      layerOffset: 3
-     ignoreRotation: true
-     followRotation: false
+     ignoreRotation: false
+     followRotation: true
      rotateShooting: false
      shootEffect: shootSmall
      reload: 10
      recoil: 2
-     recoilTime: 300
+     recoilTime: 30
      shootSound: pew
      ejectEffect: casing1
 
@@ -100,7 +100,7 @@ weapons: [
     type: BasicBulletType
     damage: 9
     speed: 4
-    lifeTime: 10000
+    lifeTime: 20
   }
  }
 ]
