@@ -32,7 +32,7 @@ weapons: [
     mirror: false
     rotate: true
     shootEffect: shootBig2
-    layerOffset: 2
+    layerOffset: 1
     ignoreRotation: true
     followRotation: false
     rotateShooting: false
@@ -44,7 +44,7 @@ weapons: [
           type: RegionPart
           suffix: -barrel
           under: true
-          layerOffset: 1
+          layerOffset: -1
           y: 19
           moves: [
             {
