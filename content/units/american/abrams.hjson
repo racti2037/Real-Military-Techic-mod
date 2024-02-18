@@ -26,7 +26,7 @@ weapons: [
  x: 0
  y: 0.7
     rotateSpeed: 3
-    shootY: 16
+    shootY: 20
     targetAir: false
     targetGround: true
     mirror: false
@@ -43,8 +43,8 @@ weapons: [
           type: RegionPart
           suffix: -barrel
           under: true
-          layerOffset: 3
-          y: 22
+          layerOffset: 2
+          y: 20
           moves: [
             {
               type: PartMove
