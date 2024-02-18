@@ -42,7 +42,7 @@ weapons: [
         {
           type: RegionPart
           suffix: -barrel
-          under: false
+          under: true
           y: 3
           moves: [
             {
