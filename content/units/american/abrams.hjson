@@ -43,11 +43,12 @@ weapons: [
           type: RegionPart
           suffix: -barrel
           under: true
-          y: 3
-          mirror: false
-          moveY: -4
-          progress: recoil
-          recoilIndex: 1
+          y: 6
+          moves: [
+            {
+              type: PartMove
+              progress: recoil
+              y: -1.5
       }
   ]
 
