@@ -43,7 +43,7 @@ weapons: [
           type: RegionPart
           suffix: -barrel
           under: true
-          layerOffset: -3
+          layerOffset: 3
           y: 22
           moves: [
             {
