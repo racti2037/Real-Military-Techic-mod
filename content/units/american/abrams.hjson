@@ -38,6 +38,21 @@ weapons: [
     reload: 90
     recoil: 4
     shootSound: artillery
+    parts: [
+        {
+          type: RegionPart
+          suffix: -barrel
+          under: false
+          y: 3
+          moves: [
+            {
+              type: PartMove
+              progress: recoil
+              y: -1
+            }
+         ]
+      }
+  ]
 
  bullet: {
     type: ArtilleryBulletType
