@@ -32,7 +32,7 @@ weapons: [
     mirror: false
     rotate: true
     shootEffect: shootBig2
-    layerOffset: 1
+    layerOffset: 2
     ignoreRotation: true
     followRotation: false
     rotateShooting: false
@@ -84,6 +84,7 @@ weapons: [
      rotateSpeed: 4
      mirror: false
      rotate: true
+     layerOffset: 3
      ignoreRotation: true
      followRotation: false
      rotateShooting: false
