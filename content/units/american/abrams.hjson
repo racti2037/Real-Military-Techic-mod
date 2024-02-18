@@ -42,9 +42,9 @@ weapons: [
         {
           type: RegionPart
           suffix: -barrel
-          under: false
-          layer: 1
-          y: 18
+          under: true
+          layer: 3
+          y: 22
           moves: [
             {
               type: PartMove
