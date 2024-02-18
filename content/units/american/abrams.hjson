@@ -37,14 +37,14 @@ weapons: [
     followRotation: false
     rotateShooting: false
     reload: 90
-    recoil: 4
+    recoil: 0.5
     shootSound: artillery
     parts: [
         {
           type: RegionPart
           suffix: -barrel
           under: true
-          layerOffset: -1
+          layerOffset: 1
           y: 19
           moves: [
             {
