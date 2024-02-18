@@ -44,13 +44,10 @@ weapons: [
           suffix: -barrel
           under: true
           y: 3
-          moves: [
-            {
-              type: PartMove
-              progress: recoil
-              y: -1
-            }
-         ]
+          mirror: false
+          moveY: -4
+          progress: recoil
+          recoilIndex: 1
       }
   ]
 
