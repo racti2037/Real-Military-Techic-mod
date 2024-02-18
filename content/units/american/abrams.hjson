@@ -43,14 +43,14 @@ weapons: [
         {
           type: RegionPart
           suffix: -barrel
-          under: true
+          under: false
           layerOffset: 1
           y: 19
           moves: [
             {
               type: PartMove
               progress: recoil
-              y: -1.5
+              y: -2
             } 
                 ]
         }
