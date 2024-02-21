@@ -19,6 +19,7 @@ treadRects: [
 envEnabled: 14
 envDisabled: 2
 outlineColor: "2d2f39"
+layerOffset: -1
 weapons: [
  {
  name: m2bredley-weapon
@@ -30,7 +31,8 @@ weapons: [
     targetGround: true
     mirror: false
     rotate: true
-    shootEffect: 
+    layerOffset: 2
+    shootEffect: SmallShot
     ignoreRotation: true
     followRotation: false
     rotateShooting: false
