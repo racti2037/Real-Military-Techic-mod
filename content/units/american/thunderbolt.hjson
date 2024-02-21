@@ -23,13 +23,14 @@
       "y": 28.3,
       "ejectEfect": "casing1",
         "recoilTime": 90,
+         recoil: 0.1
 	"inaccuracy": 4,
 
          "bullet": {
            "type": "BasicBulletType",
            "damage": 18,
-           "speed": 4,
-           "lifetime": 110,
+           "speed": 6,
+           "lifetime": 65,
            "splashDamage": 18,
            "splashDamageRadius": 12,
       }
