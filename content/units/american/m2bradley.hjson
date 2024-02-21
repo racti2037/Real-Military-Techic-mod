@@ -6,7 +6,7 @@ health: 1148
 armor: 6
 speed: 0.9
 rotateSpeed: 2.3
-range: 180
+range: 100
 treadPullOffset: 4
 treadRects: [
 {
@@ -37,14 +37,14 @@ weapons: [
     followRotation: false
     rotateShooting: false
     reload: 25
-    recoil: 1.7
+    recoil: 0.2
     shootSound: shoot
     parts: [
 {
           type: RegionPart
           suffix: -barrel
           under: true
-          y: 6
+          y: 6.4
           moves: [
             {
               type: PartMove
@@ -65,11 +65,11 @@ weapons: [
       height: 7
       hitSize: 0.3
       shootEffect: shootBig
-      damage: 18
+      damage: 26
       collides: true 
       collidesTiles: true
       collidesAir: true 
-      lifeTime: 60
+      lifeTime: 90
       speed: 3
       }
      }
