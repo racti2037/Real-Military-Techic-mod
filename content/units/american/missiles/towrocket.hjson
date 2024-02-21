@@ -15,7 +15,7 @@ engineColor: ff770e
 trailColor: ffb114
 engineSize: 0.7
 engineOffset: 4
-rotateSpeed: 1.25 
+rotateSpeed: 2.25 
 trailLength: 10 
 missileAccelTime: 10 
 lowAltitude: true 
