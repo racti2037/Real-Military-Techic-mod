@@ -2,9 +2,8 @@ name: Towrocket
 type: missile
 controller: MissileAI
 flying: true
-speed: 2.5
+speed: 3.5
 maxRange: 4
-lifeTime: 2
 hidden: true
 targetAir: false
 targetGround: true
@@ -18,7 +17,7 @@ engineSize: 0.7
 engineOffset: 4
 rotateSpeed: 1.25 
 trailLength: 10 
-missileAccelTime: 15 
+missileAccelTime: 10 
 lowAltitude: true 
 fogRadius: 2 
 health: 25
