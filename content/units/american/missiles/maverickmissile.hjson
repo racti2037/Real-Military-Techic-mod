@@ -2,7 +2,7 @@ name: maverickrocket
 type: missile
 controller: MissileAI
 flying: true
-speed: 3.8
+speed: 5.8
 maxRange: 4
 lifeTime: 74
 hidden: true
@@ -21,7 +21,7 @@ trailLength: 10
 missileAccelTime: 15 
 lowAltitude: true 
 fogRadius: 2 
-health: 50
+health: 70
 allowedInPayloads: false 
 useUnitCap: false 
 playerControllable: false 
@@ -37,7 +37,6 @@ weapons: [
        x: 0
        y: 0 
        despawnHit: true 
-       despawnEffect: none
        
         bullet: {
        type: BombBulletType
@@ -52,8 +51,8 @@ weapons: [
            type: WaveEffect 
            lifetime: 25 
            sizeFrom: 10 
-           sizeTo: 40 
-           strokeFrom: 5 
+           sizeTo: 50 
+           strokeFrom: 7 
            strokeTo: 0 
            colorFrom: ffca14
            colorTo: ffo010
