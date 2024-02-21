@@ -2,7 +2,7 @@ name: maverickrocket
 type: missile
 controller: MissileAI
 flying: true
-speed: 5.8
+speed: 8.8
 maxRange: 4
 lifeTime: 74
 hidden: true
