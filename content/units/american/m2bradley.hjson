@@ -88,8 +88,8 @@ weapons: [
     ignoreRotation: true
     followRotation: false
     rotateShooting: false
-    reload: 180
-    recoil: 2.7
+    reload: 210
+    recoil: 1.7
     shootSound: missileSmall 
 bullet: {
 	  type: BasicBulletType
