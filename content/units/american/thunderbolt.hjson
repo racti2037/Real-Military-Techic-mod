@@ -29,7 +29,7 @@
            "type": "BasicBulletType",
            "damage": 18,
            "speed": 4,
-           "lifetime": 80,
+           "lifetime": 110,
            "splashDamage": 18,
            "splashDamageRadius": 12,
       }
