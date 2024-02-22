@@ -68,9 +68,9 @@ weapons: [
     hitSize: 0.4
     shootEffect: shootBig2
     damage: 120
-    collides: true 
+    collides: false 
     collidesTiles: true
-    collidesAir: true 
+    collidesAir: false
     splashDamageRadius: 20
     splashDamage: 120
     speed: 5
