@@ -4,7 +4,7 @@ hitSize: 30
 omniMovement: false
 health: 2250
 armor: 12
-speed: 0.7
+speed: 0.8
 rotateSpeed: 1.2
 range: 270
 layerOffset: -1
@@ -67,14 +67,14 @@ weapons: [
     status: blasted
     hitSize: 0.4
     shootEffect: shootBig2
-    damage: 90
+    damage: 120
     collides: true 
     collidesTiles: true
     collidesAir: true 
     splashDamageRadius: 20
-    splashDamage: 65
+    splashDamage: 120
     speed: 5
-    lifeTime: 130
+    lifeTime: 400
     }
    }
    {
