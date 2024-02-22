@@ -2,7 +2,7 @@ name: M1A2 Abrams
 type: tank
 hitSize: 30
 omniMovement: false
-health: 1890
+health: 2250
 armor: 12
 speed: 0.7
 rotateSpeed: 1.2
@@ -26,7 +26,7 @@ weapons: [
  name: abrams-weapon
  x: 0
  y: 0.7
-    rotateSpeed: 1.5
+    rotateSpeed: 1.8
     shootY: 21
     targetAir: false
     targetGround: true
@@ -45,7 +45,6 @@ weapons: [
           type: RegionPart
           suffix: -barrel
           under: false
-          layerOffset: 0
           y: 19
           moves: [
             {
@@ -90,17 +89,17 @@ weapons: [
      followRotation: true
      rotateShooting: false
      shootEffect: shootSmall
-     reload: 10
-     recoil: 2
+     reload: 15
+     recoil: 1
      recoilTime: 30
      shootSound: pew
      ejectEffect: casing1
 
  bullet: {
     type: BasicBulletType
-    damage: 9
+    damage: 8
     speed: 4
-    lifeTime: 20
+    lifeTime: 25
   }
  }
 ]
