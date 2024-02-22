@@ -2,10 +2,10 @@ type: tank
 name: M2 Bradley
 hitSize: 24
 omniMovement: false
-health: 1148
-armor: 6
-speed: 0.9
-rotateSpeed: 2.3
+health: 1348
+armor: 8
+speed: 0.7
+rotateSpeed: 1.3
 range: 100
 treadPullOffset: 4
 treadRects: [
@@ -25,7 +25,7 @@ weapons: [
  name: m2bredley-weapon
  x: 1.9
  y: -1.1
-    rotateSpeed: 3
+    rotateSpeed: 2.5
     shootY: 17
     targetAir: true
     targetGround: true
@@ -44,7 +44,7 @@ weapons: [
           type: RegionPart
           suffix: -barrel
           under: true
-          y: 6.4
+          y: 6.7
           moves: [
             {
               type: PartMove
@@ -65,11 +65,11 @@ weapons: [
       height: 7
       hitSize: 0.3
       shootEffect: shootBig
-      damage: 26
+      damage: 36
       collides: true 
       collidesTiles: true
       collidesAir: true 
-      lifeTime: 90
+      lifeTime: 100
       speed: 3
       }
      }
