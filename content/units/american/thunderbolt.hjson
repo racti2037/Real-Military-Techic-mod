@@ -2,10 +2,10 @@
 "hitSize": 12,
 "type": flying,
 "flying": true,
-"speed": 5.8,
+"speed": 2.8,
 "accel": 0.2,
 "drag": 0.2,
-"health": 850,
+"health": 950,
 "armor": 5,
 "engineOffset": 8,
 "radius": 680,
@@ -29,9 +29,9 @@
          "bullet": {
            "type": "BasicBulletType",
            "damage": 18,
-           "speed": 6,
-           "lifetime": 65,
-           "splashDamage": 18,
+           "speed": 4,
+           "lifetime": 80,
+           "splashDamage": 20,
            "splashDamageRadius": 12,
       }
    }
