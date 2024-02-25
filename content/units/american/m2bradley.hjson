@@ -6,7 +6,7 @@ health: 1348
 armor: 8
 speed: 0.7
 rotateSpeed: 1.3
-range: 100
+range: 60
 treadPullOffset: 4
 treadRects: [
 {
@@ -93,7 +93,7 @@ weapons: [
     shootSound: missileSmall 
 bullet: {
 	  type: BasicBulletType
-	  lifeTime: 1
+	  lifetime: 1
 	  speed: 0
 	  damage: 0
 	  spawnUnit: towrocket
