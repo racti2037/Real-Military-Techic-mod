@@ -74,7 +74,7 @@ weapons: [
     splashDamageRadius: 20
     splashDamage: 120
     speed: 5
-    lifeTime: 400
+    lifetime: 400
     }
    }
    {
