@@ -2,7 +2,7 @@ type: tank
 name: M2 Bradley
 hitSize: 24
 omniMovement: false
-health: 1348
+health: 1948
 armor: 8
 speed: 0.7
 rotateSpeed: 1.3
