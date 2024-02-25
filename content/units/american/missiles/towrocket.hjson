@@ -7,7 +7,7 @@ maxRange: 4
 hidden: true
 targetAir: false
 targetGround: true
-lifetime: 180
+lifetime: 190
 radius: 10
 envEnabled: 17 
 envDisabled: 0 
@@ -42,8 +42,8 @@ weapons: [
         bullet: {
        type: BombBulletType
        splashDamageRadius: 28
-       splashDamage: 150
-       instantDisappear: true 
+       splashDamage: 450
+       instantDisappear: true
        killShooter: true 
        hittable: false 
        collidesAir: true 
