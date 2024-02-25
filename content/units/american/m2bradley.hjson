@@ -69,7 +69,7 @@ weapons: [
       collides: true 
       collidesTiles: true
       collidesAir: true 
-      lifeTime: 100
+      lifetime: 100
       speed: 3
       }
      }
