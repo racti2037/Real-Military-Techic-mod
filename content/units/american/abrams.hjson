@@ -74,7 +74,7 @@ weapons: [
     splashDamageRadius: 20
     splashDamage: 120
     speed: 5
-    lifetime: 400
+    lifetime: 40
     }
    }
    {
@@ -99,7 +99,7 @@ weapons: [
     type: BasicBulletType
     damage: 8
     speed: 4
-    lifeTime: 25
+    lifetime: 25
   }
  }
 ]
