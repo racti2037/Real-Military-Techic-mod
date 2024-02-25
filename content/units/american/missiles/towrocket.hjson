@@ -7,7 +7,7 @@ maxRange: 4
 hidden: true
 targetAir: false
 targetGround: true
-lifetime: 190
+lifetime: 160
 radius: 10
 envEnabled: 17 
 envDisabled: 0 
