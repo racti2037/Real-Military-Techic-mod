@@ -4,7 +4,7 @@ controller: MissileAI
 flying: true
 speed: 8.8
 maxRange: 4
-lifetime: 74
+lifetime: 80
 hidden: true
 targetAir: false
 targetGround: true
