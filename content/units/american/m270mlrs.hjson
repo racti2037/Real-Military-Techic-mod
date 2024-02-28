@@ -12,8 +12,8 @@ treadRects: [
 {
   x: 4
   y: 5
-  width: 6
-  height: 10
+  width: 13
+  height: 20
 }
 ]
 envEnabled: 14
