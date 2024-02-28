@@ -10,9 +10,9 @@ range: 300
 treadPullOffset: 4
 treadRects: [
 {
-  x: 4
+  x: -4
   y: 5
-  width: 13
+  width: 20
   height: 20
 }
 ]
