@@ -44,7 +44,7 @@ weapons: [
           type: RegionPart
           suffix: -barrel
           under: true
-          y: 6.7
+          y: 7.1
           moves: [
             {
               type: PartMove
@@ -61,11 +61,11 @@ weapons: [
         trailColor: ff7f14ff
         frontColor: ff9a00ff
 	    backColor: ffa621ff
-      width: 4
-      height: 7
-      hitSize: 0.3
+      width: 7
+      height: 10
+      hitSize: 0.6
       shootEffect: shootBig
-      damage: 36
+      damage: 56
       collides: true 
       collidesTiles: true
       collidesAir: true 
