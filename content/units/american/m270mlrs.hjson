@@ -1,5 +1,6 @@
 name: M270 MLRS 
 type: tank
+omniMovement: false
 hitSize: 24
 heaдth: 1700
 armor: 6
