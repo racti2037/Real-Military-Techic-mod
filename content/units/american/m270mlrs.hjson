@@ -20,3 +20,30 @@ envEnabled: 14
 envDisabled: 2
 outlineColor: "2d2f39"
 layerOffset: -1
+weapon: [
+{
+name: m270mlrs-weapon
+ x: 0
+ y: -2.1
+    rotateSpeed: 2.5
+    shootX: 0
+    shootY: 5
+    targetAir: false
+    targetGround: true
+    mirror: false
+    rotate: true
+    shootEffect: 
+    ignoreRotation: true
+    followRotation: false
+    rotateShooting: false
+    reload: 410
+    recoil: 1.7
+    shootSound: missileBig 
+bullet: {
+	  type: BasicBulletType
+	  lifetime: 1
+	  speed: 0
+	  damage: 0
+	  spawnUnit: m57rocket 
+}
+        ]
