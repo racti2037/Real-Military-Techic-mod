@@ -4,7 +4,7 @@ hitSize: 24
 omniMovement: false
 health: 1948
 armor: 8
-speed: 0.7
+speed: 1.1
 rotateSpeed: 1.3
 range: 60
 treadPullOffset: 4
