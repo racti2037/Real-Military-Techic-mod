@@ -27,7 +27,7 @@ name: m270mlrs-weapon
  y: -2.1
     rotateSpeed: 2.5
     shootX: 0
-    shootY: 5
+    shootY: 9
     targetAir: false
     targetGround: true
     mirror: false
@@ -39,6 +39,15 @@ name: m270mlrs-weapon
     reload: 410
     recoil: 1.7
     shootSound: missileBig 
+    shoot: {
+        type: ShootMulti
+        source: {
+          type: ShootAlternate
+          barrels: 2
+          shots: 2
+          spread: 10
+        }
+    }
 bullet: {
 	  type: BasicBulletType
 	  lifetime: 1
