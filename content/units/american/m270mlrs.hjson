@@ -20,7 +20,7 @@ envEnabled: 14
 envDisabled: 2
 outlineColor: "2d2f39"
 layerOffset: -1
-weapon: [
+weapons: [
 {
 name: m270mlrs-weapon
  x: 0
