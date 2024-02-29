@@ -45,6 +45,7 @@ name: m270mlrs-weapon
           type: ShootAlternate
           barrels: 2
           shots: 2
+          shotDelay: 3
           spread: 10
         }
     }
