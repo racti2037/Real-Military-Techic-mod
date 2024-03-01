@@ -6,7 +6,7 @@ health: 1700
 armor: 6
 speed: 1.2
 rotateSpeed: 1.3
-layerOffset: 0
+layerOffset: -1
 radius: 300
 fogRadius: 300
 treadPullOffset: 4
@@ -33,8 +33,7 @@ name: m270mlrs-weapon
     targetGround: true
     mirror: false
     rotate: true
-    shootEffect: 
-    layerOffset: -1
+    layerOffset: 2
     ignoreRotation: true
     followRotation: false
     rotateShooting: false
@@ -51,7 +50,7 @@ parts: [
 {
           type: RegionPart
           suffix: -l
-          under: true
+          under: false
           y: 6
           x: 5
           moves: [
