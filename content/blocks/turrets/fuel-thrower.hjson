@@ -13,17 +13,23 @@ rotateSpeed: 8
 inaccuracy: 3.5
 ammoTypes: {
  benzine: {
-    type: liquidBulletType
-    liquid: benzine
-    lifetime: 55
-    speed: 3
-    knockback: 3
-    puddleSize: 1.8
-    orbSize: 2
-    damage: 12
-    drag: 0.02
-    statusDuration: 40
-    status: burning 
+        type": "BasicBulletType",
+        hitSize: 7
+        lifetime: 24
+        pierce: true
+        width: 0.001
+        height: 0.001
+        length: 0.001
+        collidesAir: false
+        statusDuration: 600
+        status: burning
+        shootEffect: shootPyraFlame
+        hitEffect: hitFlameSmall
+        despawnEffect: none
+        hittable: false
+        speed: 4
+        damage: 70
+
   }
     }
 requirements: [
