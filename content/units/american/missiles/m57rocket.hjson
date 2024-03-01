@@ -45,6 +45,7 @@ weapons: [
        killShooter: true 
        hittable: false 
        collidesAir: true 
+       status: burning
        hitEffect: [ 
          { 
            type: WaveEffect 
