@@ -40,12 +40,12 @@ weapons: [
         bullet: {
        type: BombBulletType
        splashDamageRadius: 210
-       splashDamage: 2450 
+       splashDamage: 4378
        instantDisappear: true 
        killShooter: true 
        hittable: false 
        collidesAir: true 
-       status: burning
+       status: burning, melting
        pierce: true
        hitEffect: [ 
          { 
