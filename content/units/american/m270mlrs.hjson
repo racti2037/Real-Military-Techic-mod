@@ -46,6 +46,36 @@ name: m270mlrs-weapon
           shotDelay: 2
           spread: 10
 }
+parts: [
+{
+          type: RegionPart
+          suffix: -l
+          under: true
+          y: 9
+          x: 13
+          moves: [
+            {
+              type: PartMove
+              progress: reload
+              y: 5.5
+            }
+         ]
+      }
+{
+          type: RegionPart
+          suffix: -r
+          under: true
+          y: 9
+          x: -13
+          moves: [
+            {
+              type: PartMove
+              progress: reload
+              y: 5.5
+            }
+         ]
+      }
+  ]
 bullet: {
 	  type: BasicBulletType
 	  lifetime: 1
