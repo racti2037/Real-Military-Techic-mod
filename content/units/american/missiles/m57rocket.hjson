@@ -45,7 +45,7 @@ weapons: [
        killShooter: true 
        hittable: false 
        collidesAir: true 
-       status: burning, melting
+       status: burning
        pierce: true
        hitEffect: [ 
          { 
