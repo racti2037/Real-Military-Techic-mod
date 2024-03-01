@@ -41,6 +41,7 @@ name: m270mlrs-weapon
     recoil: 1.7
     shootSound: missileBig 
     shoot: {
+          type: ShootAlternate
           shots: 2
           shotDelay: 2
           spread: 10
