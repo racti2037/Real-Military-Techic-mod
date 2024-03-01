@@ -34,7 +34,7 @@ name: m270mlrs-weapon
     mirror: false
     rotate: true
     shootEffect: 
-    layerOffset: 1
+    layerOffset: -1
     ignoreRotation: true
     followRotation: false
     rotateShooting: false
@@ -44,7 +44,7 @@ name: m270mlrs-weapon
     shoot: {
           type: ShootAlternate
           shots: 2
-          shotDelay: 20
+          shotDelay: 40
           spread: 10
 }
 parts: [
