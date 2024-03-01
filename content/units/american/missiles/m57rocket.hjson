@@ -15,10 +15,10 @@ engineColor: ff770e
 trailColor: ffb114
 engineSize: 2.8 
 engineOffset: 7
-rotateSpeed: 1.60 
+rotateSpeed: 0.60 
 trailLength: 21
 missileAccelTime: 15 
-lowAltitude: false 
+lowAltitude: true 
 fogRadius: 9
 health: 230
 allowedInPayloads: false 
@@ -39,7 +39,7 @@ weapons: [
        
         bullet: {
        type: BombBulletType
-       splashDamageRadius: 100
+       splashDamageRadius: 210
        splashDamage: 2450 
        instantDisappear: true 
        killShooter: true 
