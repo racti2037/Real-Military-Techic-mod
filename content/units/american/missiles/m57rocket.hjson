@@ -46,6 +46,7 @@ weapons: [
        hittable: false 
        collidesAir: true 
        status: burning
+       pierce: true
        hitEffect: [ 
          { 
            type: WaveEffect 
