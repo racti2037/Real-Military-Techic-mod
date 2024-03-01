@@ -37,7 +37,7 @@ name: m270mlrs-weapon
     ignoreRotation: true
     followRotation: false
     rotateShooting: false
-    reload: 410
+    reload: 810
     recoil: 1.7
     shootSound: missileBig 
     shoot: {
@@ -50,7 +50,7 @@ parts: [
 {
           type: RegionPart
           suffix: -l
-          under: false
+          under: true
           y: 6
           x: 5
           moves: [
