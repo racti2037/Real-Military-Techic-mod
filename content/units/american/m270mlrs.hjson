@@ -37,13 +37,13 @@ name: m270mlrs-weapon
     ignoreRotation: true
     followRotation: false
     rotateShooting: false
-    reload: 370
+    reload: 1200
     recoil: 1.7
     shootSound: missileBig 
     shoot: {
           type: ShootAlternate
           shots: 2
-          shotDelay: 40
+          shotDelay: 50
           spread: 10
 }
 parts: [
