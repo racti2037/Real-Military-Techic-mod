@@ -34,6 +34,7 @@ name: m270mlrs-weapon
     mirror: false
     rotate: true
     shootEffect: 
+    layerOffset: 1
     ignoreRotation: true
     followRotation: false
     rotateShooting: false
@@ -51,13 +52,13 @@ parts: [
           type: RegionPart
           suffix: -l
           under: true
-          y: 9
-          x: 13
+          y: 7
+          x: 5
           moves: [
             {
               type: PartMove
               progress: reload
-              y: 5.5
+              y: 6.5
             }
          ]
       }
@@ -65,13 +66,13 @@ parts: [
           type: RegionPart
           suffix: -r
           under: true
-          y: 9
-          x: -13
+          y: 7
+          x: -5
           moves: [
             {
               type: PartMove
               progress: reload
-              y: 5.5
+              y: 6.5
             }
          ]
       }
