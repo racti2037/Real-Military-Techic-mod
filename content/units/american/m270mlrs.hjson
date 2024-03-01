@@ -41,10 +41,10 @@ name: m270mlrs-weapon
     recoil: 1.7
     shootSound: missileBig 
     shoot: {
-        type: "ShootMulti
+        type: ShootMulti
         source: {
-          type: "ShootAlternate
-          shots: 2
+          type: ShootAlternate
+          shoots: 2
           spread: 10
     }    
 }
