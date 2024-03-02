@@ -1,6 +1,7 @@
 name: m57rocket
 type: missile
 controller: MissileAI
+loopSound: rocketM57
 flying: true
 speed: 7.8
 lifetime: 300
