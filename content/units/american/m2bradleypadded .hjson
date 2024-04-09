@@ -1,0 +1,106 @@
+type: tank
+name: M2 Bradley Padded
+hitSize: 24
+omniMovement: false
+hidden: true
+health: 3000
+armor: 8
+speed: 0
+rotateSpeed: 0
+range: 60
+treadPullOffset: 4
+treadRects: [
+{
+  x: 3
+  y: 7
+  width: 1
+  height: 2
+}
+]
+envEnabled: 14
+envDisabled: 2
+outlineColor: "2d2f39"
+layerOffset: -1
+weapons: [
+ {
+ name: m2bredley-weapon
+ x: 1.9
+ y: -1.1
+    rotateSpeed: 2.5
+    shootY: 17
+    targetAir: true
+    targetGround: true
+    mirror: false
+    rotate: true
+    layerOffset: 2
+    shootEffect: SmallShot
+    ignoreRotation: true
+    followRotation: false
+    rotateShooting: false
+    reload: 25
+    recoil: 0.2
+    shootSound: shoot
+    parts: [
+{
+          type: RegionPart
+          suffix: -barrel
+          under: true
+          y: 10.1
+          moves: [
+            {
+              type: PartMove
+              progress: recoil
+              y: -1.5
+            }
+         ]
+      }
+  ]
+    
+     bullet: {
+      type: BasicBulletType
+      trailMult: 0.8 
+        trailColor: ff7f14ff
+        frontColor: ff9a00ff
+	    backColor: ffa621ff
+      width: 7
+      height: 10
+      hitSize: 0.6
+      shootEffect: shootBig
+      damage: 56
+      collides: true 
+      collidesTiles: true
+      collidesAir: true 
+      lifetime: 100
+      speed: 3
+      }
+     }
+{
+ name: m2bredley-tow
+ x: 1.9
+ y: -1.1
+    rotateSpeed: 2.5
+    shootX: -8.15
+    shootY: 5.1
+    targetAir: false
+    targetGround: true
+    mirror: false
+    rotate: true
+    shootEffect: 
+    ignoreRotation: true
+    followRotation: false
+    rotateShooting: false
+    reload: 210
+    recoil: 1.7
+    shootSound: missileSmall 
+bullet: {
+	  type: BasicBulletType
+	  lifetime: 1
+	  speed: 0
+	  damage: 0
+	  spawnUnit: towrocket
+ }
+}
+
+     ]
+      
+    
