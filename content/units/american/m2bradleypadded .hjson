@@ -37,7 +37,7 @@ weapons: [
     ignoreRotation: true
     followRotation: false
     rotateShooting: false
-    reload: 25
+    reload: 0
     recoil: 0.2
     shootSound: shoot
     parts: [
