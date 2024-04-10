@@ -21,6 +21,15 @@ envEnabled: 14
 envDisabled: 2
 outlineColor: "2d2f39"
 layerOffset: -1
+abilities: [
+{
+type: mindustry.entities.abilities.SpawnDeathAbility
+unit: m2bradley
+amount: 1
+spread: 0
+}
+]
+
 weapons: [
  {
  name: m2bredley-weapon
