@@ -23,7 +23,7 @@ layerOffset: -1
 abilities: [
 {
 type: mindustry.entities.abilities.SpawnDeathAbility
-unit: m2bradley
+unit: m2bradleypadded
 amount: 1
 spread: 0
 }
