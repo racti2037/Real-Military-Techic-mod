@@ -38,14 +38,14 @@ weapons: [
     followRotation: false
     rotateShooting: false
     reload: 0
-    recoil: 0.2
+    recoil: 0
     shootSound: shoot
     parts: [
 {
           type: RegionPart
           suffix: -barrel
           under: true
-          y: 10.1
+          y: 10
           moves: [
             {
               type: PartMove
@@ -66,11 +66,11 @@ weapons: [
       height: 10
       hitSize: 0.6
       shootEffect: shootBig
-      damage: 56
+      damage: 86
       collides: true 
       collidesTiles: true
       collidesAir: true 
-      lifetime: 100
+      lifetime: 0
       speed: 3
       }
      }
@@ -87,7 +87,7 @@ weapons: [
     rotate: true
     shootEffect: 
     ignoreRotation: true
-    followRotation: false
+    followRotation: true
     rotateShooting: false
     reload: 210
     recoil: 1.7
