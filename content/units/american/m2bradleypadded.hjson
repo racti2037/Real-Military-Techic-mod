@@ -23,7 +23,7 @@ outlineColor: "2d2f39"
 layerOffset: -1
 weapons: [
  {
- name: m2bredley-weapon
+ name: m2bredleypadded-weapon
  x: 1.9
  y: -1.1
     rotateSpeed: 0
@@ -33,13 +33,13 @@ weapons: [
     mirror: false
     rotate: true
     layerOffset: 2
-    shootEffect: SmallShot
+    shootEffect: none
     ignoreRotation: true
     followRotation: false
     rotateShooting: false
     reload: 0
     recoil: 0
-    shootSound: shoot
+    shootSound: none
     parts: [
 {
           type: RegionPart
@@ -65,7 +65,7 @@ weapons: [
       width: 7
       height: 10
       hitSize: 0.6
-      shootEffect: shootBig
+      shootEffect: none
       damage: 86
       collides: true 
       collidesTiles: true
@@ -85,13 +85,13 @@ weapons: [
     targetGround: true
     mirror: false
     rotate: true
-    shootEffect: 
+    shootEffect: none
     ignoreRotation: true
     followRotation: true
     rotateShooting: false
     reload: 0
     recoil: 0
-    shootSound: missileSmall 
+    shootSound: none
 bullet: {
 	  type: BasicBulletType
           speed: 0
