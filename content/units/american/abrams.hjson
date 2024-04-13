@@ -45,7 +45,7 @@ weapons: [
           type: RegionPart
           suffix: -barrel
           under: false
-          y: 20
+          y: 19.6
           moves: [
             {
               type: PartMove
@@ -67,12 +67,12 @@ weapons: [
     status: blasted
     hitSize: 0.4
     shootEffect: shootBig2
-    damage: 120
+    damage: 220
     collides: false 
     collidesTiles: true
     collidesAir: false
     splashDamageRadius: 20
-    splashDamage: 220
+    splashDamage: 420
     speed: 5
     lifetime: 60
     }
