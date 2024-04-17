@@ -45,7 +45,7 @@ weapons: [
           type: RegionPart
           suffix: -barrel
           under: true
-          y: 2.3
+          y: 2.1
           moves: [
             {
               type: PartMove
