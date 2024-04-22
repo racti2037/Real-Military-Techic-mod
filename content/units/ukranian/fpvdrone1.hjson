@@ -1,0 +1,7 @@
+type: flying
+name: FPV drone kamikadze
+health: 40
+speed: 7
+hitSize: 1
+omniMovement: true
+outlineColor: 2d2f39
