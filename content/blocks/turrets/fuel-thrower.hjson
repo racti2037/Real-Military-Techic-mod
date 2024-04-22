@@ -7,15 +7,15 @@ targetAir: true
 targetGround: true
 range: 130
 shootCone: 3
-shootSound: spray
+shootSound: flame
 spread:10
 rotateSpeed: 8
 inaccuracy: 3.5
 ammoTypes: {
  benzine: {
-        type": "BasicBulletType",
+        type": FlameBulletType
         hitSize: 7
-        lifetime: 24
+        lifetime: 25
         pierce: true
         width: 0.001
         height: 0.001
@@ -24,11 +24,12 @@ ammoTypes: {
         statusDuration: 600
         status: burning
         shootEffect: shootPyraFlame
+        despawnEffect: none
         hitEffect: hitFlameSmall
         despawnEffect: none
         hittable: false
         speed: 4
-        damage: 70
+        damage: 170
 
   }
     }
