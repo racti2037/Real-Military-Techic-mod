@@ -6,3 +6,40 @@ hitSize: 1
 omniMovement: true
 outlineColor: 2d2f39
 flying: true
+weapons: [
+    {
+       shootCone: 140
+       mirror: false
+       shootOnDeath: true 
+       shootEffect: none 
+       x: 0
+       y: 0 
+       despawnHit: true 
+       
+        bullet: {
+       type: BombBulletType
+       splashDamageRadius: 20
+       splashDamage: 991
+       instantDisappear: true 
+       killShooter: true 
+       hittable: false 
+       collidesAir: true 
+       status: melting 
+       pierce: true
+       hitEffect: [ 
+         { 
+           type: WaveEffect 
+           lifetime: 35 
+           sizeFrom: 20 
+           sizeTo: 70 
+           strokeFrom: 9 
+           strokeTo: 0 
+           colorFrom: ffca14
+           colorTo: ffo010
+
+
+         } 
+         ] 
+         } 
+     } 
+ ]
