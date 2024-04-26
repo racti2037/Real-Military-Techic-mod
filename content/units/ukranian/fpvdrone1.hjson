@@ -5,3 +5,4 @@ speed: 7
 hitSize: 1
 omniMovement: true
 outlineColor: 2d2f39
+flying: true
