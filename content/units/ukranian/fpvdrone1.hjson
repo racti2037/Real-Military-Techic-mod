@@ -6,6 +6,29 @@ hitSize: 1
 omniMovement: false
 outlineColor: 2d2f39
 flying: true
+abilities: [
+  {
+    type: StatusFieldAbility
+    range: -1
+    reload: 5
+    effectY: 0.5
+    effectX: 2
+    parentizeEffects: true
+    activeEffect: [
+      {
+        followParent: true
+        rotWithParent: true
+        useRotation: false
+        mirror: true
+        baseRotation: -45
+        lifetime: 16
+        length: 0
+        spin: 6
+        region: fpvdrone1-blades
+        layer: 90.0001
+        sizeFrom: 4
+        sizeTo: 4
+      }
 weapons: [
     {
        shootCone: 140
