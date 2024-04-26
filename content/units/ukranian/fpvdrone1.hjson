@@ -24,11 +24,14 @@ abilities: [
         lifetime: 16
         length: 0
         spin: 6
-        region: fpvdrone1-blades
+        region: fpvdrone1-blade
         layer: 90.0001
         sizeFrom: 4
         sizeTo: 4
-      }
+     }
+    ]
+   }
+  ]
 weapons: [
     {
        shootCone: 140
