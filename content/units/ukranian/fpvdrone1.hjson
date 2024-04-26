@@ -18,7 +18,7 @@ weapons: [
        
         bullet: {
        type: BombBulletType
-       splashDamageRadius: 20
+       splashDamageRadius: 50
        splashDamage: 991
        instantDisappear: true 
        killShooter: true 
@@ -31,9 +31,9 @@ weapons: [
            type: WaveEffect 
            lifetime: 35 
            sizeFrom: 20 
-           sizeTo: 70 
+           sizeTo: 50 
            strokeFrom: 9 
-           strokeTo: 0 
+           strokeTo: 3
            colorFrom: ffca14
            colorTo: ffo010
 
