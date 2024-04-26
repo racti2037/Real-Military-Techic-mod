@@ -7,6 +7,7 @@ omniMovement: false
 outlineColor: 2d2f39
 flying: true
 abilities: [
+effect: none
   {
     type: StatusFieldAbility
     range: -1
