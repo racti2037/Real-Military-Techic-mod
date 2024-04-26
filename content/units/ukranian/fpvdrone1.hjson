@@ -3,7 +3,7 @@ name: FPV drone kamikadze
 health: 40
 speed: 7
 hitSize: 1
-omniMovement: true
+omniMovement: false
 outlineColor: 2d2f39
 flying: true
 weapons: [
