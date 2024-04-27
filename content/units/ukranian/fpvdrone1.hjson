@@ -24,7 +24,7 @@ abilities: [
         lifetime: 16
         length: 0
         spin: 6
-        region: real-military-techic-mod-fpvdrone1-motor-blade
+        region: military-techic-mod-fpvdrone1-motor-blade
         layer: 90.0001
         sizeFrom: 4
         sizeTo: 4
