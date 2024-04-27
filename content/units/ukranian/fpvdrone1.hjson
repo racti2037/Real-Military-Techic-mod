@@ -6,6 +6,7 @@ hitSize: 1
 omniMovement: false
 outlineColor: 2d2f39
 flying: true
+layer: 90.0
 abilities: [
   {
     type: StatusFieldAbility
