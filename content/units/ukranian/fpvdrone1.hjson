@@ -12,6 +12,7 @@ abilities: [
   {
     type: StatusFieldAbility
     effect: none
+    layerOffset: 1
     range: -1
     reload: 5
     effectY: 0.5
