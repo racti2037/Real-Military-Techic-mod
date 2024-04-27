@@ -15,8 +15,7 @@ abilities: [
     effectY: 0.5
     effectX: 2
     parentizeEffects: true
-    activeEffect: [
-      {
+    activeEffect: {
         followParent: true
         rotWithParent: true
         useRotation: false
@@ -29,8 +28,7 @@ abilities: [
         layer: 90.0001
         sizeFrom: 4
         sizeTo: 4
-     }
-    ]
+    }
    }
   ]
 weapons: [
