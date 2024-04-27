@@ -7,9 +7,9 @@ omniMovement: false
 outlineColor: 2d2f39
 flying: true
 abilities: [
-effect: none
   {
     type: StatusFieldAbility
+    effect: none
     range: -1
     reload: 5
     effectY: 0.5
@@ -25,7 +25,7 @@ effect: none
         lifetime: 16
         length: 0
         spin: 6
-        region: fpvdrone1-blade
+        region: real-military-techic-mod-fpvdrone1-blade
         layer: 90.0001
         sizeFrom: 4
         sizeTo: 4
