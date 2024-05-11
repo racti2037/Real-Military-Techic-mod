@@ -27,6 +27,8 @@ ammoTypes: {
         despawnEffect: none
         hitEffect: hitFlameSmall
         despawnEffect: none
+        shootEffect: shootSmallFlame
+		      smokeEffect: shootSmallSmoke
         hittable: false
         speed: 4
         damage: 170
