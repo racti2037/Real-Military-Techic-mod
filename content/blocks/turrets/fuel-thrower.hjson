@@ -11,23 +11,23 @@ shootSound: flame
 spread:10
 rotateSpeed: 8
 inaccuracy: 3.5
+
 ammoTypes: {
  benzine: {
         type": FlameBulletType
         hitSize: 7
         lifetime: 25
         pierce: true
-        width: 0.001
-        height: 0.001
-        length: 0.001
+        width: 1
+        height: 1
+        length: 1
+        despawnEffect: none
+        hitEffect: hitFlameSmall
+        shootEffect: shootSmallFlame
+        smokeEffect: shootSmallSmoke
         collidesAir: false
         statusDuration: 600
         status: burning
-        despawnEffect: none
-        hitEffect: hitFlameSmall
-        despawnEffect: none
-        shootEffect: shootSmallFlame
-	smokeEffect: shootSmallSmoke
         hittable: false
         speed: 4
         damage: 170
