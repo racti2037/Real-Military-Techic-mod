@@ -14,7 +14,7 @@ omniMovement: false
 "weapons": [
        {
       "name": "thunderbolt-weapon",
-      "shootSound": a10shoot,
+      "shootSound": a10shoott,
       "top": false,
       "recoil": 0.3,
       "reload": 1.4,
