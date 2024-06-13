@@ -83,7 +83,7 @@ weapons: [
       }
      }
 {
- name: m2bredley-tow
+ name: m2bradley-tow
  x: 1.9
  y: -1.1
     rotateSpeed: 2.5
@@ -99,7 +99,23 @@ weapons: [
     rotateShooting: false
     reload: 210
     recoil: 1.7
-    shootSound: missileSmall 
+    shootSound: missileSmall
+ parts: [
+{
+          type: RegionPart
+          suffix: -container
+          under: true
+          y: -1.1
+          x: 1.7
+          moves: [
+            {
+              type: PartMove
+              progress: warmup
+              x: 1.5
+            }
+         ]
+      }
+  ]
 bullet: {
 	  type: BasicBulletType
 	  lifetime: 1
