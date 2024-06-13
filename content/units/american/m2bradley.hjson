@@ -94,7 +94,7 @@ weapons: [
     mirror: false
     rotate: true
     shootEffect: 
-    layerOffset: 2
+    layerOffset: 1
     ignoreRotation: true
     followRotation: true
     rotateShooting: false
