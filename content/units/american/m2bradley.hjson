@@ -94,6 +94,7 @@ weapons: [
     mirror: false
     rotate: true
     shootEffect: 
+    layerOffset: 2
     ignoreRotation: true
     followRotation: true
     rotateShooting: false
@@ -106,12 +107,12 @@ weapons: [
           suffix: -container
           under: true
           y: -1.1
-          x: 1.7
+          x: 1.9
           moves: [
             {
               type: PartMove
               progress: warmup
-              x: 1.5
+              x: -1.7
             }
          ]
       }
