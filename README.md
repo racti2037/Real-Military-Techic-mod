@@ -4,9 +4,9 @@ It's hjson mod
 
 Mod adds:
 
-4 units
+6 units
 
-3 block
+4 block
 
 2 liquids
 
