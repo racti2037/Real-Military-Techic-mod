@@ -105,8 +105,8 @@ weapons: [
 {
           type: RegionPart
           suffix: -container
-          under: true
-          y: -1.1
+          under: false
+          y: -1
           x: 1.9
           moves: [
             {
