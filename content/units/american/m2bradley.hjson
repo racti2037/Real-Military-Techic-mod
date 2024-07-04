@@ -10,8 +10,8 @@ range: 60
 treadPullOffset: 4
 treadRects: [
 {
-  x: 3
-  y: 7
+  x: 12
+  y: 45
   width: 1
   height: 2
 }
@@ -53,7 +53,7 @@ weapons: [
           type: RegionPart
           suffix: -barrel
           under: true
-          y: 9.4
+          y: 9.25
           moves: [
             {
               type: PartMove
@@ -106,7 +106,7 @@ weapons: [
           type: RegionPart
           suffix: -container
           under: false
-          y: -1
+          y: 0
           x: 1.9
           moves: [
             {
