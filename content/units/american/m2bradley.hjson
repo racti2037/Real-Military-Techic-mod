@@ -10,8 +10,8 @@ range: 60
 treadPullOffset: 4
 treadRects: [
 {
-  x: 12
-  y: 45
+  x: -38
+  y: 10
   width: 1
   height: 2
 }
