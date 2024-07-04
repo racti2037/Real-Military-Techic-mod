@@ -44,7 +44,6 @@ weapons: [
     shootEffect: SmallShot
     ignoreRotation: true
     followRotation: false
-    rotateShooting: false
     reload: 25
     recoil: 0.2
     shootSound: shoot
