@@ -67,9 +67,8 @@ plans: [
     requirements: [
       lead/500
       copper/200
-      silicon/700
+      silicon/1400
       titanium/600
-      surgealloy/1000
     ]
   }
   {
