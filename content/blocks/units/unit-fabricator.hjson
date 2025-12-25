@@ -29,7 +29,7 @@ plans: [
       silicon/350
       plastanium/600
       titanium/200
-      metaglass/50
+      metalglass/50
     ]
   }
   {
@@ -69,7 +69,7 @@ plans: [
       copper/200
       silicon/700
       titanium/600
-      surge/1000
+      surgealloy/1000
     ]
   }
   {
