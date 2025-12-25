@@ -1,7 +1,7 @@
 type: UnitFactory
 
-name: Tonk fabricator
-description: Produces 2nd to 3rd generation tanks
+name: Multifabricator
+description: Produces tanks, planes, drones, APCs, IFSs, AA vihecles, and more other staff 
 
 health: 1500
 size: 2
@@ -15,18 +15,40 @@ plans: [
     unit: abrams
     time: 128
     requirements: [
-      copper/100
-      silicon/50
-      titanium/45
+      copper/300
+      silicon/800
+      titanium/575
+      plastanium/200
+      lead/275
     ]
   }
   {
     unit: thunderbolt
     time: 200
     requirements: [
-      silicon/125
-      plastanium/50
-      titanium/65
+      silicon/350
+      plastanium/600
+      titanium/200
+      metaglass/50
+    ]
+  }
+  {
+    unit: bradley
+    time: 128
+    requirements: [
+      copper/200
+      lead/700
+      silicon/500
+      titanium/750
+    ]
+  }
+{
+    unit: fpvdrone
+    time: 128
+    requirements: [
+      copper/15
+      silicon/5
+      titanium/5
     ]
   }
 ]
@@ -41,7 +63,9 @@ category: units
 research: {
   parent: ground-factory
   requirements: [
-    silicon/1000
-    titanium/700
+    silicon/10000
+    titanium/6000
+    lead/30000
+    plastanium/3000
   ]
 }
