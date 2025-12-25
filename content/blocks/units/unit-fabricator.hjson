@@ -3,17 +3,17 @@ type: UnitFactory
 name: Multifabricator
 description: Produces tanks, planes, drones, APCs, IFSs, AA vihecles, and more other staff 
 
-health: 1500
-size: 2
+health: 4500
+size: 7
 
 consumes: {
-  power: 100
+  power: 1200
 }
 
 plans: [
   {
     unit: abrams
-    time: 128
+    time: 360
     requirements: [
       copper/300
       silicon/800
@@ -24,7 +24,7 @@ plans: [
   }
   {
     unit: thunderbolt
-    time: 200
+    time: 400
     requirements: [
       silicon/350
       plastanium/600
@@ -33,8 +33,8 @@ plans: [
     ]
   }
   {
-    unit: bradley
-    time: 128
+    unit: m2bradley
+    time: 280
     requirements: [
       copper/200
       lead/700
@@ -43,20 +43,56 @@ plans: [
     ]
   }
 {
-    unit: fpvdrone
-    time: 128
+    unit: fpvdrone1
+    time: 20
     requirements: [
       copper/15
       silicon/5
       titanium/5
     ]
   }
+{
+    unit: m113
+    time: 200
+    requirements: [
+      lead/500
+      silicon/300
+      titanium/230
+      plastanium/120
+    ]
+  }
+  {
+    unit: m270
+    time: 340
+    requirements: [
+      lead/500
+      copper/200
+      silicon/700
+      titanium/600
+      surge/1000
+    ]
+  }
+  {
+    unit: m164vads
+    time: 300
+    requirements: [
+      copper/100
+      lead/500
+      silicon/460
+      titanium/450
+      plastanium/300
+      phasefabric/40
+    ]
+  }
+  
 ]
 
 requirements: [
-  silicon/450
-  titanium/500
-  lead/900
+  silicon/1050
+  titanium/900
+  lead/1200
+  plastanium/700
+  phasefabric/250
 ]
 
 category: units
