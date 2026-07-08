@@ -92,14 +92,14 @@ weapons: [
      reload: 15
      recoil: 1
      recoilTime: 30
-     shootSound: pew
+     shootSound: shoot
      ejectEffect: casing1
 
  bullet: {
     type: BasicBulletType
     damage: 10
     speed: 4
-    lifetime: 40
+    lifetime: 100
   }
  }
 ]
