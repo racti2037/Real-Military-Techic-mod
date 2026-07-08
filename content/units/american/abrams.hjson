@@ -5,7 +5,7 @@ omniMovement: false
 health: 2650
 armor: 12
 speed: 0.8
-rotateSpeed: 1.2
+rotateSpeed: 1
 range: 270
 layerOffset: -1
 treadFrames: 18
@@ -74,7 +74,7 @@ weapons: [
     splashDamageRadius: 20
     splashDamage: 420
     speed: 5
-    lifetime: 60
+    lifetime: 100
     }
    }
    {
